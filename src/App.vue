@@ -19,6 +19,10 @@ export default {
 </script>
 
 <style>
+  @import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap);
+* {
+  font-family: 'Poppins', sans-serif;
+}
 body {
   background-image: url(./assets/img/bg.jpg);
   background-size: cover;
@@ -26,7 +30,7 @@ body {
 }
 #app {
   /* font-family: Avenir, Helvetica, Arial, sans-serif; */
-    font-family: Verdana, Arial, Helvetica, sans-serif;
+    /* font-family: Verdana, Arial, Helvetica, sans-serif; */
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
