@@ -1,11 +1,12 @@
 <template>
     <div class="max-w-2xl px-6 text-center mx-auto" id="profile">
       <br>
-      <div>
+      <!-- <div>
         <img class="w-4 h-4 rounded-circle" :src="user.avatar" :alt="user.name">
         <h1 class="text-center text-xl font-bold py-4">{{user.name}}</h1>
         <p class="text-center text-xl font-bold py-4">{{user.bio}}</p>
-      </div>
+      </div> -->
+      <img src="../assets/img/zyq.png" alt="profile">
         <h1>
           Hi, I'm 
           <strong>
@@ -13,7 +14,16 @@
           </strong>,
           <br> a Full Stack Developer.
         </h1>
+        <ul>
+          <li><a class="mdi mdi-facebook" href="https://facebook.com/haziqhapiz" target="_blank" rel="noopener noreferrer"></a></li>
+          <li><a class="mdi mdi-instagram" href="https://instagram.com/haziqhapiz" target="_blank" rel="noopener noreferrer"></a></li>
+          <li><a class="mdi mdi-twitter" href="https://twitter.com/haziqhapiz" target="_blank" rel="noopener noreferrer"></a></li>
+          <li><a class="mdi mdi-github" href="https://github.com/zyqhpz" target="_blank" rel="noopener noreferrer"></a></li>
+          <li><a class="mdi mdi-linkedin" href="https://linkedin.com/in/haziqhapiz" target="_blank" rel="noopener noreferrer"></a></li>
+    <!-- <i class="mdi mdi-facebook"></i> -->
+        </ul>
     </div>
+    <!-- <mdiFacebook/> -->
 </template>
 
 <script>
@@ -23,13 +33,15 @@ export default {
     msg: String
   }
 }
+// import { mdiFacebook } from '@mdi/js';
 </script>
 
 <style scoped>
 * {
   text-align: center;
   color: white;
-  font-size: 24px;
+  font-size: 30px;
+  font-family: Roboto;
 }
 #profile {
   position: relative;
@@ -46,5 +58,57 @@ export default {
     /* height: 50vh; */
     margin: 0 auto;
   }
+}
+h1 {
+  font-size: 36px;
+  /* position: absolute; */
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  /* line-height: 42px; */
+  text-align: center;
+}
+img {
+  /* top: 200px; */
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50px;
+}
+ul {
+  /* font-size: 12px; */
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  justify-content: space-evenly;
+}
+li {
+  width: 75px;
+  height: 75px;
+}
+a {
+  font-size: 50px;
+  text-align: center;
+}
+.mdi-facebook:hover {
+  color: #00B2FF;
+  /* font-size: 65px; */
+}
+.mdi-instagram:hover {
+  color: #E1306C;
+}
+.mdi-twitter:hover {
+  color: #1DA1F2;
+}
+.mdi-github:hover {
+  color: #4078c0;
+}
+.mdi-linkedin:hover {
+  color: #0085ca;
 }
 </style>
