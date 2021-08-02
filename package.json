@@ -14,7 +14,9 @@
     "bootstrap": "^5.0.2",
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.6.5",
-    "vue": "^3.1.5"
+    "tippy.js": "^6.3.1",
+    "vue": "^2.6.11",
+    "vue-tippy": "^4.10.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

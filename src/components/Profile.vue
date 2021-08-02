@@ -15,7 +15,7 @@
           <br> a Full Stack Developer.
         </h1>
         <ul>
-          <li><a class="mdi mdi-facebook" href="https://facebook.com/haziqhapiz" target="_blank" rel="noopener noreferrer"></a></li>
+          <li><a id="fb" content="Haziq Hapiz" v-tippy class="mdi mdi-facebook" href="https://facebook.com/haziqhapiz" target="_blank" rel="noopener noreferrer"></a></li>
           <li><a class="mdi mdi-instagram" href="https://instagram.com/haziqhapiz" target="_blank" rel="noopener noreferrer"></a></li>
           <li><a class="mdi mdi-twitter" href="https://twitter.com/haziqhapiz" target="_blank" rel="noopener noreferrer"></a></li>
           <li><a class="mdi mdi-github" href="https://github.com/zyqhpz" target="_blank" rel="noopener noreferrer"></a></li>
@@ -33,7 +33,9 @@ export default {
     msg: String
   }
 }
-// import { mdiFacebook } from '@mdi/js';
+  // tippy('#fb', {
+  //   content: 'Haziq Hapiz',
+  // })
 </script>
 
 <style scoped>
