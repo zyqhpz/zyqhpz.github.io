@@ -1,4 +1,5 @@
-# portfolio-web
+# Web design for personal portfolio
+This is a project to understand and implement VueJS architecture.
 
 ## Project setup
 ```
