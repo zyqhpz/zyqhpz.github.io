@@ -9,9 +9,7 @@
       <img src="../assets/img/zyq.png" alt="profile">
         <h1>
           Hi, I'm 
-          <strong>
-            <slot class="bg-primary" name="title">{{ msg }}</slot>
-          </strong>,
+            <span id="name" name="title">{{ msg }}</span>
           <br> a Full Stack Developer.
         </h1>
         <ul>
@@ -22,11 +20,12 @@
           <li><a class="mdi mdi-linkedin" href="https://linkedin.com/in/haziqhapiz" target="_blank" rel="noopener noreferrer"></a></li>
     <!-- <i class="mdi mdi-facebook"></i> -->
         </ul>
+    
     </div>
-    <!-- <mdiFacebook/> -->
 </template>
 
 <script>
+
 export default {
   name: 'Profile',
   props: {
@@ -36,14 +35,20 @@ export default {
   // tippy('#fb', {
   //   content: 'Haziq Hapiz',
   // })
+  
 </script>
 
 <style scoped>
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap);
 * {
   text-align: center;
   color: white;
   font-size: 30px;
-  font-family: Roboto;
+  font-family: Poppins;
+  /* font-weight: 500; */
+}
+#name {
+  font-weight: 600;
 }
 #profile {
   position: relative;
@@ -66,7 +71,7 @@ h1 {
   /* position: absolute; */
 
   font-style: normal;
-  font-weight: bold;
+  font-weight: 300;
   font-size: 30px;
   /* line-height: 42px; */
   text-align: center;

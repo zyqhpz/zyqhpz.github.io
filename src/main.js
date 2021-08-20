@@ -2,6 +2,8 @@
 import Vue from 'vue'
 
 import App from './App.vue'
+
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 // import bootstrap
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.js'
@@ -16,6 +18,10 @@ new Vue({
 }).$mount('#app')
 
 
+// Make BootstrapVue available throughout your project
+Vue.use(BootstrapVue)
+// Optionally install the BootstrapVue icon components plugin
+Vue.use(IconsPlugin)
 // createApp(App).mount('#app')
 VueTippy.use(VueTippy);
 
