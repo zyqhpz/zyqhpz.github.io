@@ -55,4 +55,11 @@ body {
   color: #2c3e50;
   margin-top: 60px;
 }
+b-card {
+  position: absolute;
+  text-align: center;
+  left: 25%;
+  right: inherit;
+  bottom: 50%;
+}
 </style>

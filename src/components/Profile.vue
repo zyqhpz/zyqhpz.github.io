@@ -20,7 +20,7 @@
           <li><a content="Haziq Hapiz" v-tippy class="mdi mdi-linkedin" href="https://linkedin.com/in/haziqhapiz" target="_blank" rel="noopener noreferrer"></a></li>
     <!-- <i class="mdi mdi-facebook"></i> -->
         </ul>
-    
+    <b-button variant="danger">Click</b-button>
     </div>
 </template>
 
