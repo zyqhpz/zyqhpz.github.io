@@ -4,9 +4,10 @@
   <!-- center a div -->
   <!-- style a div to add margin top 50px -->
   <div>
+    
   <Profile msg="Haziq Hapiz"/>
   <b-card
-    title="Card Title"
+    title="EduMaterial"
     img-src="https://picsum.photos/600/300/?image=25"
     img-alt="Image"
     img-top
@@ -15,9 +16,12 @@
     class="mb-2"
   >
     <b-card-text>
-      Some quick example text to build on the card title and make up the bulk of the card's content.
+      EduMaterial was developed to join UN's SDG mission on Goals 4. This is a project for BITM2113 (Web Application Development) course in UTeM.
     </b-card-text>
-    <b-button href="https://www.facebook.com/haziqhapiz" variant="primary">Go somewhere</b-button>
+    <b-button pill variant="primary">PHP</b-button>
+              <b-badge variant="primary">Primary</b-badge>
+
+    <!-- <b-button href="https://www.facebook.com/haziqhapiz" target="_blank" variant="primary">Go somewhere</b-button> -->
   </b-card>
   </div>
   

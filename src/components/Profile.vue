@@ -12,15 +12,16 @@
             <span id="name" name="title">{{ msg }}</span>
           <br> a Full Stack Developer.
         </h1>
+        <br>
         <ul>
-          <li><a id="fb" content="Haziq Hapiz" v-tippy class="mdi mdi-facebook" href="https://facebook.com/haziqhapiz" target="_blank" rel="noopener noreferrer"></a></li>
-          <li><a content="@haziqhapiz" v-tippy class="mdi mdi-instagram" href="https://instagram.com/haziqhapiz" target="_blank" rel="noopener noreferrer"></a></li>
-          <li><a content="@haziqhapiz" v-tippy class="mdi mdi-twitter" href="https://twitter.com/haziqhapiz" target="_blank" rel="noopener noreferrer"></a></li>
-          <li><a content="zyqhpz" v-tippy class="mdi mdi-github" href="https://github.com/zyqhpz" target="_blank" rel="noopener noreferrer"></a></li>
-          <li><a content="Haziq Hapiz" v-tippy class="mdi mdi-linkedin" href="https://linkedin.com/in/haziqhapiz" target="_blank" rel="noopener noreferrer"></a></li>
+          <li><a id="fb" content="Haziq Hapiz" v-tippy="{arrow: true, arrowType : 'round', followCursor : 'horizontal' }" class="mdi mdi-facebook" href="https://facebook.com/haziqhapiz" target="_blank" rel="noopener noreferrer"></a></li>
+          <li><a content="@haziqhapiz" v-tippy="{arrow: true, arrowType : 'round', followCursor : 'horizontal' }" class="mdi mdi-instagram" href="https://instagram.com/haziqhapiz" target="_blank" rel="noopener noreferrer"></a></li>
+          <li><a content="@haziqhapiz" v-tippy="{arrow: true, arrowType : 'round', followCursor : 'horizontal' }" class="mdi mdi-twitter" href="https://twitter.com/haziqhapiz" target="_blank" rel="noopener noreferrer"></a></li>
+          <li><a content="zyqhpz" v-tippy="{arrow: true, arrowType : 'round', followCursor : 'horizontal' }" class="mdi mdi-github" href="https://github.com/zyqhpz" target="_blank" rel="noopener noreferrer"></a></li>
+          <li><a content="Haziq Hapiz" v-tippy="{arrow: true, arrowType : 'round', followCursor : 'horizontal' }" class="mdi mdi-linkedin" href="https://linkedin.com/in/haziqhapiz" target="_blank" rel="noopener noreferrer"></a></li>
     <!-- <i class="mdi mdi-facebook"></i> -->
         </ul>
-    <b-button variant="danger">Click</b-button>
+    <!-- <b-button variant="danger">Click</b-button> -->
     </div>
 </template>
 
@@ -39,6 +40,8 @@ export default {
 </script>
 
 <style scoped>
+@import '../../node_modules/bootstrap/dist/css/bootstrap.css';
+@import '../../node_modules/bootstrap-vue/dist/bootstrap-vue.css';
 @import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap);
 * {
   text-align: center;
@@ -89,7 +92,8 @@ ul {
   display: flex;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  margin-top: 10px;
+  padding: 0 15px;
   width: 100%;
   text-align: center;
   justify-content: space-evenly;
@@ -117,5 +121,22 @@ a {
 }
 .mdi-linkedin:hover {
   color: #0085ca;
+}
+@media (max-width: 768px) {
+  #profile { 
+    width: 85%;
+    /* height: 50vh; */
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  li {
+    height: 50px;
+    width: 50px;
+  }
+  a {
+    font-size: 40px;
+  }
 }
 </style>
