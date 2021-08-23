@@ -18,9 +18,10 @@
     <b-card-text>
       EduMaterial was developed to join UN's SDG mission on Goals 4. This is a project for BITM2113 (Web Application Development) course in UTeM.
     </b-card-text>
-    <b-button pill variant="primary">PHP</b-button>
-              <b-badge variant="primary">Primary</b-badge>
-
+    <c-badge c-badge ml="2" font-size="1em" variant="solid" variant-color="orange">HTML5</c-badge>
+    <c-badge c-badge ml="2" font-size="1em" variant="solid" variant-color="blue">CSS3</c-badge>
+    <c-badge c-badge ml="2" font-size="1em" variant="solid" variant-color="yellow">Javascript</c-badge>
+    <c-badge c-badge ml="2" font-size="1em" variant="solid" bg="#800080">PHP</c-badge>
     <!-- <b-button href="https://www.facebook.com/haziqhapiz" target="_blank" variant="primary">Go somewhere</b-button> -->
   </b-card>
   </div>
@@ -29,12 +30,15 @@
 
 <script>
 import Profile from './components/Profile.vue'
+import { CBadge } from '@chakra-ui/vue'
+
 
 export default {
   name: 'App',
   components: {
     // HelloWorld,
-    Profile
+    Profile,
+    CBadge
   }
 }
 </script>

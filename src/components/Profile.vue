@@ -22,16 +22,22 @@
     <!-- <i class="mdi mdi-facebook"></i> -->
         </ul>
     <!-- <b-button variant="danger">Click</b-button> -->
+  <!-- <c-badge c-badge mx="2" variant="solid" variant-color="green">Default</c-badge> -->
+
     </div>
 </template>
 
 <script>
+// import { CBadge } from '@chakra-ui/vue'
 
 export default {
   name: 'Profile',
   props: {
     msg: String
-  }
+  },
+  // components: {
+  //   CBadge
+  // }
 }
   // tippy('#fb', {
   //   content: 'Haziq Hapiz',

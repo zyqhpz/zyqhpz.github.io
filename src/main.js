@@ -10,11 +10,14 @@ import 'bootstrap/dist/css/bootstrap.css'
 // import 'bootstrap/dist/js/bootstrap.js'
 // import tippy from 'tippy.js';
 // import 'tippy.js/dist/tippy.css'
-import VueTippy, { TippyComponent } from "vue-tippy";
+import VueTippy, { TippyComponent } from "vue-tippy"
+import Chakra, { CThemeProvider } from '@chakra-ui/vue'
 
 Vue.use(BootstrapVue)
 Vue.use(VueTippy);
 Vue.use(ModalPlugin)
+
+Vue.use(Chakra)
 
 Vue.use(CardPlugin)
 Vue.use(LayoutPlugin)
@@ -23,7 +26,7 @@ Vue.config.productionTip = false
 Vue.use(IconsPlugin)
 
 new Vue({
-  render: h => h(App),
+  render: h => h(CThemeProvider, [h(App)]),
 }).$mount('#app')
 
 
