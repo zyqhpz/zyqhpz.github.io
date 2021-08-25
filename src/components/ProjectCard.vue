@@ -119,6 +119,7 @@ b-card {
   display: block;
   gap: 10px;
   margin-left: 15px;
+  padding: 20px;
 }
 ul {
   display: grid;
