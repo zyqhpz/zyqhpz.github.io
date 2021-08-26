@@ -2,7 +2,7 @@
     <ul>
   <b-card
     title="EduMaterial"
-    img-src="https://picsum.photos/600/300/?image=25"
+    img-src="https://picsum.photos/600/300/?image=1"
     img-alt="Image"
     img-top
     tag="article"
@@ -20,7 +20,7 @@
   </b-card>
   <b-card
     title="EduMaterial"
-    img-src="https://picsum.photos/600/300/?image=25"
+    img-src="https://picsum.photos/600/300/?image=30"
     img-alt="Image"
     img-top
     tag="article"
@@ -56,7 +56,7 @@
   </b-card>
     <b-card
     title="EduMaterial"
-    img-src="https://picsum.photos/600/300/?image=25"
+    img-src="https://picsum.photos/600/300/?image=40"
     img-alt="Image"
     img-top
     tag="article"
@@ -74,7 +74,7 @@
   </b-card>
     <b-card
     title="EduMaterial"
-    img-src="https://picsum.photos/600/300/?image=25"
+    img-src="https://picsum.photos/600/300/?image=13"
     img-alt="Image"
     img-top
     tag="article"
