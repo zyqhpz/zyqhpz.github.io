@@ -3,10 +3,11 @@
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   <!-- center a div -->
   <!-- style a div to add margin top 50px -->
-  <div>
+  <div class="px-24 flex flex-col justify-center space-y-5">
     
   <Profile msg="Haziq Hapiz"/>
   <Card/>
+  <Tail/>
   </div>
   
 </template>
@@ -14,13 +15,15 @@
 <script>
 import Profile from './components/Profile.vue'
 import Card from './components/ProjectCard.vue'
+import Tail from './components/CardTail.vue'
 
 export default {
   name: 'App',
   components: {
     // HelloWorld,
     Profile,
-    Card
+    Card,
+    Tail
   }
 }
 </script>

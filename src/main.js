@@ -3,6 +3,9 @@ import Vue from 'vue'
 
 import App from './App.vue'
 
+// import './index.css'
+import 'tailwindcss/tailwind.css'
+
 import { BootstrapVue, IconsPlugin, LayoutPlugin, ModalPlugin, CardPlugin } from 'bootstrap-vue'
 // import bootstrap
 import 'bootstrap-vue/dist/bootstrap-vue.css'
