@@ -79,7 +79,7 @@
     img-top
     tag="article"
     style="max-width: 20rem;"
-    class="mb-2"
+    class="mb-2 space-x-4"
   >
     <b-card-text>
       EduMaterial was developed to join UN's SDG mission on Goals 4. This is a project for BITM2113 (Web Application Development) course in UTeM.
@@ -90,7 +90,7 @@
     <c-badge c-badge ml="2" font-size="1em" variant="solid" bg="#800080">PHP</c-badge>
     <!-- <b-button href="https://www.facebook.com/haziqhapiz" target="_blank" variant="primary">Go somewhere</b-button> -->
   </b-card>
-  <div class="max-w-sm overflow-hidden bg-white rounded-xl">
+  <div class="max-w-sm overflow-hidden bg-white rounded-2xl">
   <img class="w-full" src="https://picsum.photos/600/300/?image=13" alt="Sunset in the mountains">
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2">The Coldest Sunset</div>

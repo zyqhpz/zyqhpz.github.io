@@ -1,15 +1,20 @@
 <template>
-  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-  <!-- center a div -->
-  <!-- style a div to add margin top 50px -->
-  <div class="px-24 flex flex-col justify-center space-y-5">
+
+  <div class="px-24 flex flex-col justify-center">
     
   <Profile msg="Haziq Hapiz"/>
   <Card/>
   <Tail/>
   </div>
   
+
+
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+  <!-- center a div -->
+  <!-- style a div to add margin top 50px -->
+  <!-- <div class="bg-gradient-to-r from-yellow-400 via-red-500 to-pink-50"> -->
+
 </template>
 
 <script>
@@ -34,9 +39,9 @@ export default {
   font-family: 'Poppins', sans-serif;
 }
 body {
-  background-image: url(./assets/img/bg.jpg);
+  min-height: 100%;
+  background:linear-gradient(0deg, rgba(75, 75, 75, 0.2), rgba(0, 0, 0, 0.3)), url(./assets/img/bg.jpg);
   background-size: cover;
-  /* background-repeat: inherit; */
 }
 #app {
   /* font-family: Avenir, Helvetica, Arial, sans-serif; */
