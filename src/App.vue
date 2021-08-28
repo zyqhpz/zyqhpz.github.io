@@ -3,8 +3,8 @@
   <div class="px-24 flex flex-col justify-center">
     
   <Profile msg="Haziq Hapiz"/>
-  <Card/>
   <Tail/>
+  <Card/>
   </div>
   
 

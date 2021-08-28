@@ -42,8 +42,6 @@ new Vue({
 
 // TODO 
 /*
-    1. Add font yg cantik sikit
-    2. fix text (size/position)
-    3. add profile image - done
-    4. add medsos icon + link
+ 1. fix responsive card size
+ 2. add info to the card
 */

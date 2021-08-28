@@ -1,5 +1,5 @@
 <template>
-<div class="px-24 h-screen bg-blue-700 flex flex-col justify-center items-center space-y-5">
+<!-- <div class="px-24 h-screen bg-blue-700 flex flex-col justify-center items-center space-y-5">
    <div class="bg-white rounded-xl shadow-2xl">
       <div class="flex">
          <img src="https://images.unsplash.com/photo-1610720657521-c38abf6dbb7d?" alt="boy with camera" class="rounded-tl-xl w-60 object-cover">
@@ -15,7 +15,22 @@
         Updated 3 days ago
       </footer>
    </div>
+</div> -->
+<section>
+   <div class=" px-6 mx-auto text-center w-full">
+      <h2 class="text-3xl font-semibold text-gray-200 underline">My Projects</h2>
+      <div class="flex items-center justify-center mt-10">
+         <div class="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-col-4 xl:grid-col-5" >
+            <div class="w-64 h-64"><div class="max-w-xs bg-white h-full w-full">1</div></div>
+            <div class="bg-white w-64 h-64">2</div>
+            <div class="bg-white w-64 h-64">3</div>
+            <div class="bg-white w-64 h-64">4</div>
+            <div class="bg-white w-64 h-64">5</div>
+            <div class="bg-white w-64 h-64">6</div>
+         </div>
+      </div>
    </div>
+</section>
 </template>
 
 <script>
