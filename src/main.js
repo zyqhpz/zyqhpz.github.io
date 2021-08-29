@@ -38,8 +38,6 @@ new Vue({
 // createApp(App).mount('#app')
 
 
-
-
 // TODO 
 /*
  1. fix responsive card size
