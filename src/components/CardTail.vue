@@ -20,13 +20,48 @@
    <div class=" px-6 mx-auto text-center w-full">
       <h2 class="text-3xl font-semibold text-gray-200 underline">My Projects</h2>
       <div class="flex items-center justify-center mt-10">
-         <div class="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-col-4 xl:grid-col-5" >
-            <div class="w-64 h-64"><div class="max-w-xs bg-white h-full w-full">1</div></div>
-            <div class="bg-white w-64 h-64">2</div>
-            <div class="bg-white w-64 h-64">3</div>
-            <div class="bg-white w-64 h-64">4</div>
-            <div class="bg-white w-64 h-64">5</div>
-            <div class="bg-white w-64 h-64">6</div>
+         <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 " >
+            <div>
+               <div class="max-w-xs overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+                  <img class="w-full" src="https://picsum.photos/600/300/?image=13" alt="Sunset in the mountains">
+                  <div class="px-6 py-4">
+                     <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+                     <p class="text-gray-700 text-base">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                     </p>
+                  </div>
+                  <div class="px-6 pt-4 pb-2">
+                     <span class="inline-block bg-blue-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">#photography</span>
+                     <span class="inline-block bg-orange-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">#travel</span>
+                     <span class="inline-block bg-purple-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">#winter</span>
+                  </div>
+               </div>
+            </div>
+            <div>
+               <div class="bg-white w-64 h-64 max-w-xs shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+               1232
+               </div>
+            </div>
+            <div>
+               <div class="bg-white w-64 h-64 max-w-xs shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+               1232
+               </div>
+            </div>
+            <div>
+               <div class="bg-white w-64 h-64 max-w-xs shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+               1232
+               </div>
+            </div>
+            <div>
+               <div class="bg-white w-64 h-64 max-w-xs shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+               1232
+               </div>
+            </div>
+            <div>
+               <div class="bg-white w-64 h-64 max-w-xs shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+               1232
+               </div>
+            </div>
          </div>
       </div>
    </div>

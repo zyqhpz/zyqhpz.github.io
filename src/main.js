@@ -44,4 +44,6 @@ new Vue({
 /*
  1. fix responsive card size
  2. add info to the card
+ 3. v-for JSON
+ 4. delete extend in tailwind cfg
 */

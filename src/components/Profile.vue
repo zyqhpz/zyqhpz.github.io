@@ -130,7 +130,7 @@ a {
 }
 @media (max-width: 768px) {
   #profile { 
-    width: 85%;
+    width: 90%;
     /* height: 50vh; */
     margin: 0 auto;
   }
@@ -143,6 +143,10 @@ a {
   }
   a {
     font-size: 40px;
+  }
+  img {
+    width: 2em;
+    height: 2em;
   }
 }
 </style>
