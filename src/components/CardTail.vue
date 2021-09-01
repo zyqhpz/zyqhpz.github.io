@@ -38,6 +38,40 @@
                </div>
             </div>
             <div>
+               <div class="max-w-xs overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+                  <img class="w-full" src="https://picsum.photos/600/300/?image=13" alt="Sunset in the mountains">
+                  <div class="px-6 py-4">
+                     <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+                     <p class="text-gray-700 text-base">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                     </p>
+                  </div>
+                  <div class="px-6 pt-4 pb-2">
+                     <span class="inline-block bg-blue-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">#photography</span>
+                     <span class="inline-block bg-orange-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">#travel</span>
+                     <span class="inline-block bg-purple-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">#winter</span>
+                  </div>
+               </div>
+            </div>
+            <div>
+               <div class="max-w-xs overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+                  <img class="w-full" src="https://picsum.photos/600/300/?image=13" alt="Sunset in the mountains">
+                  <div class="px-6 py-4">
+                     <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+                     <p class="text-gray-700 text-base">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                     </p>
+                  </div>
+                  <div class="px-6 pt-4 pb-2">
+                     <span class="inline-block bg-blue-600 rounded-md px-3 py-1 text-sm font-bold text-white mr-2 mb-2">CSS3</span>
+                     <span class="inline-block bg-orange-600 rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2">#travel</span>
+                     <span class="inline-block bg-purple-600 rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2">#winter</span>
+                     <c-badge c-badge ml="2" font-size="1em" variant="solid" bg="#800080">PHP</c-badge>
+
+                  </div>
+               </div>
+            </div>
+            <div>
                <div class="bg-white w-64 h-64 max-w-xs shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
                1232
                </div>
@@ -69,7 +103,12 @@
 </template>
 
 <script>
+import { CBadge } from '@chakra-ui/vue'
+
 export default {
-    name: 'Tail'
+    name: 'Tail',
+    components: {
+       CBadge
+    }
 }
 </script>
