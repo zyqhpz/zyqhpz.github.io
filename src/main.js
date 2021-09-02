@@ -44,4 +44,6 @@ new Vue({
  2. add info to the card
  3. v-for JSON
  4. delete extend in tailwind cfg
+ 5. add a navbar on bottom of MYPROJECT text -> to filter based on project type and tech stack
+ 6. add img for project WebApp, CV car counter
 */

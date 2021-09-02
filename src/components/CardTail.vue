@@ -66,6 +66,8 @@
                      <span class="inline-block bg-blue-600 rounded-md px-3 py-1 text-sm font-bold text-white mr-2 mb-2">CSS3</span>
                      <span class="inline-block bg-orange-600 rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2">#travel</span>
                      <span class="inline-block bg-purple-600 rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2">#winter</span>
+                     <span class="inline-block rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">Python</span>
+                     <span class="inline-block bg-red-600 rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2">Computer Vision</span>
                      <c-badge c-badge ml="2" font-size="1em" variant="solid" bg="#800080">PHP</c-badge>
 
                   </div>
