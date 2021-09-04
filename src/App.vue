@@ -1,12 +1,18 @@
 <template>
 
+<div>
   <div class="px-24 flex flex-col justify-center">
     
   <Profile msg="Haziq Hapiz"/>
   <Tail/>
-  <Card/>
+  <!-- <Card/> -->
   </div>
-  
+  <div class="bg-black w-full h-12 mt-16 flex justify-center align-item">
+    <h4 class="text-white">
+      Developed by Haziq Hapiz with ❤ 2021
+    </h4>
+  </div>
+</div>
 
 
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
@@ -19,7 +25,7 @@
 
 <script>
 import Profile from './components/Profile.vue'
-import Card from './components/ProjectCard.vue'
+// import Card from './components/ProjectCard.vue'
 import Tail from './components/CardTail.vue'
 
 export default {
@@ -27,7 +33,7 @@ export default {
   components: {
     // HelloWorld,
     Profile,
-    Card,
+    // Card,
     Tail
   }
 }
