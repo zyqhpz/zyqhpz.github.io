@@ -1,14 +1,14 @@
 <template>
 
 <div>
-  <div class="px-24 flex flex-col justify-center">
+  <div class="flex flex-col justify-center pt-8 md:pt-0">
     
   <Profile msg="Haziq Hapiz"/>
   <Tail/>
   <!-- <Card/> -->
   </div>
-  <div class="bg-black w-full h-12 mt-16 flex justify-center align-item">
-    <h4 class="text-white">
+  <div class="bg-black w-full h-12 mt-16 flex justify-center item-center align-middle">
+    <h4 class="text-white my-auto text-base md:text-lg align-middle">
       Developed by Haziq Hapiz with ❤ 2021
     </h4>
   </div>

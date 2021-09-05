@@ -1,12 +1,12 @@
 <template>
-    <div class="max-w-xl px-14 text-center mx-auto my-32 justify-content" id="profile">
+    <div class="max-w-xl px-4 md:px-14 text-center mx-auto mt-8 md:my-32 justify-content" id="profile">
       <br>
       <!-- <div>
         <img class="w-4 h-4 rounded-circle" :src="user.avatar" :alt="user.name">
         <h1 class="text-center text-xl font-bold py-4">{{user.name}}</h1>
         <p class="text-center text-xl font-bold py-4">{{user.bio}}</p>
       </div> -->
-      <img class="mt-10 mx-auto" src="../assets/img/zyq.png" alt="profile">
+      <img class="mt-10 mx-auto transform scale-150 md:scale-100" src="../assets/img/zyq.png" alt="profile">
         <h1>
           Hi, I'm 
             <span id="name" name="title">{{ msg }}</span>
@@ -62,7 +62,7 @@ export default {
 #profile {
   position: relative;
   width: 600px;
-  height: 640px;
+  height: 620px;
 
   background: linear-gradient(137.08deg, #5B22FF 0%, rgba(91, 34, 255, 0) 100%);
   box-shadow: 0px 0px 25px 3px rgba(0, 71, 255, 0.85);
@@ -70,7 +70,8 @@ export default {
 }
 @media (max-width: 768px) {
   #profile { 
-    width: 85%;
+    width: 90%;
+    height: 500px;
     /* height: 50vh; */
     margin: 0 auto;
   }

@@ -17,7 +17,7 @@
    </div>
 </div> -->
 <section>
-   <div class=" px-6 mx-auto text-center w-full">
+   <div class="px-8 pt-10 sm:pt-2 mx-auto text-center w-full">
       <h2 class="text-3xl font-semibold text-gray-200 underline">My Projects</h2>
       <div class="flex items-center justify-center mt-10">
          <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 " >
@@ -58,7 +58,7 @@
             </div>
             <div>
                <div class="max-w-xs overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-                  <img class="w-full" src="../assets/img/cards/yolo.png" alt="Sunset in the mountains">
+                  <img class="w-full h-23" src="../assets/img/cards/yolo.png" alt="Sunset in the mountains">
                   <div class="px-6 py-4">
                      <div class="font-bold text-xl mb-2">Car Counter</div>
                      <p class="text-gray-700 text-base">
