@@ -7,12 +7,10 @@ import App from './App.vue'
 import 'tailwindcss/tailwind.css'
 
 import { BootstrapVue, IconsPlugin, LayoutPlugin, ModalPlugin, CardPlugin } from 'bootstrap-vue'
-// import bootstrap
+
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import 'bootstrap/dist/css/bootstrap.css'
-// import 'bootstrap/dist/js/bootstrap.js'
-// import tippy from 'tippy.js';
-// import 'tippy.js/dist/tippy.css'
+
 import VueTippy, { TippyComponent } from "vue-tippy"
 import Chakra, { CThemeProvider } from '@chakra-ui/vue'
 
@@ -31,12 +29,6 @@ Vue.use(IconsPlugin)
 new Vue({
   render: h => h(CThemeProvider, [h(App)]),
 }).$mount('#app')
-
-
-// Make BootstrapVue available throughout your project
-// Optionally install the BootstrapVue icon components plugin
-// createApp(App).mount('#app')
-
 
 // TODO 
 /*
