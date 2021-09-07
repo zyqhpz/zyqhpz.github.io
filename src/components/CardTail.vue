@@ -100,16 +100,74 @@
          </div>
       </div>
    </div>
+   <div class="px-8 pt-10 sm:pt-2 mx-auto text-center w-full">
+      <h2 class="text-3xl font-semibold text-gray-200 underline">My Projects JSON</h2>
+      <div class="flex items-center justify-center mt-10">
+         <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 " >
+            <div v-for="item in data" v-bind:key="item.id">
+               <div class="max-w-xs overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+                  <img class="w-full" src="https://picsum.photos/600/300/?image=13" alt="Sunset in the mountains">
+                  <div class="px-6 py-4">
+                           <div class="font-bold text-xl mb-2">{{item.name}}</div>
+                     <p class="text-gray-700 text-base">
+                        {{item.description}}
+                     </p>
+                  </div>
+                  <div class="px-6 pt-4 pb-2">
+                     <div v-for="s in item.stack" :key="s.id">
+                     <span class="inline-block bg-blue-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">{{s.name}}</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
 </section>
 </template>
 
 <script>
+// import data from  'src\assets\data.json'
 import { CBadge } from '@chakra-ui/vue'
 
 export default {
     name: 'Tail',
     components: {
        CBadge
+    },
+    data() {
+        return {
+         data: [
+            {
+            "id" : 1,
+            "name" : "Sunset",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
+            "img" : "https://picsum.photos/600/300/?image=13",
+            "stack" : [
+               {
+               "id" : 1,
+               "name" : "Python",
+               },
+               {
+               "id" : 2,
+               "name" : "Computer Vision",
+               },
+            ]
+         },
+         {
+            "id" : 2,
+            "name" : "Sunrise",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
+            "img" : "https://picsum.photos/600/300/?image=13",
+         },
+         {
+            "id" : 3,
+            "name" : "Computer Vision",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
+            "img" : "../assets/img/cards/yolo.png",
+         }
+            ]
+        }
     }
 }
 </script>
