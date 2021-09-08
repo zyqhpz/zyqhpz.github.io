@@ -140,17 +140,25 @@ export default {
          data: [
             {
             "id" : 1,
-            "name" : "Sunset",
+            "name" : "EduMaterial",
             "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
             "img" : "https://picsum.photos/600/300/?image=13",
             "stack" : [
                {
                "id" : 1,
-               "name" : "Python",
+               "name" : "PHP",
                },
                {
                "id" : 2,
-               "name" : "Computer Vision",
+               "name" : "HTML5",
+               },
+               {
+               "id" : 3,
+               "name" : "CSS3",
+               },
+               {
+               "id" : 4,
+               "name" : "Javascript",
                },
             ]
          },
@@ -165,6 +173,16 @@ export default {
             "name" : "Computer Vision",
             "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
             "img" : "../assets/img/cards/yolo.png",
+            "stack" : [
+               {
+               "id" : 1,
+               "name" : "Python",
+               },
+               {
+               "id" : 2,
+               "name" : "Computer Vision",
+               },
+            ]
          }
             ]
         }
