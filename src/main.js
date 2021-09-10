@@ -32,10 +32,12 @@ new Vue({
 
 // TODO 
 /*
- 1. fix responsive card size
- 2. add info to the card
+ 1. fix responsive card size - done
+ 2. add info to the card - done
  3. v-for JSON
- 4. delete extend in tailwind cfg
+ 4. delete extend in tailwind cfg - done
  5. add a navbar on bottom of MYPROJECT text -> to filter based on project type and tech stack
  6. add img for project WebApp, CV car counter
+
+ - build tech stack tag as component
 */
