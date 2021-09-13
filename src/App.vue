@@ -1,6 +1,16 @@
 <template>
-
 <div>
+  <header>
+  <div class="hidden container mx-auto flex flex-wrap pt-5 flex-col sm:flex md:flex-row items-center justify-between">
+    <a class="flex title-font font-medium items-center text-white no-underline">
+      <span class="ml-3 text-md no-underline">Haziq Hapiz</span>
+    </a>
+    <a class="flex title-font font-medium items-center text-white no-underline">
+      <span class="ml-3 text-md mdi mdi-email"></span>
+      <span class="ml-3 text-md no-underline">haziq.hapiz@gmail.com</span>
+    </a>
+  </div>
+</header>
   <div class="flex flex-col justify-center pt-8 md:pt-0">
     
   <Profile msg="Haziq Hapiz"/>
@@ -9,23 +19,16 @@
   </div>
   <div class="bg-black w-full h-12 mt-16 flex justify-center item-center align-middle">
     <h4 class="text-white my-auto text-base md:text-lg align-middle">
-      Developed by Haziq Hapiz with ❤ 2021
+      Developed with ❤ by Haziq Hapiz © 2021
     </h4>
   </div>
 </div>
-
-
-  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-  <!-- center a div -->
-  <!-- style a div to add margin top 50px -->
-  <!-- <div class="bg-gradient-to-r from-yellow-400 via-red-500 to-pink-50"> -->
-
 </template>
 
 <script>
 import Profile from './components/Profile.vue'
 // import Card from './components/ProjectCard.vue'
+// import Card from './components/Card.vue'
 import Tail from './components/CardTail.vue'
 
 export default {
@@ -40,7 +43,7 @@ export default {
 </script>
 
 <style>
-  @import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap);
+  @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
 * {
   font-family: 'Poppins', sans-serif;
 }

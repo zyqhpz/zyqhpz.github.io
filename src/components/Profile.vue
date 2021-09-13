@@ -8,9 +8,10 @@
       </div> -->
       <img class="mt-10 mx-auto transform scale-150 md:scale-100" src="../assets/img/zyq.png" alt="profile">
         <h1>
-          Hi, I'm 
-            <span id="name" name="title">{{ msg }}</span>
-          <br> a Full Stack Developer.
+          Hi, I'm
+            <span id="name" name="title" class="tracking-wider bg-indigo-700 text-white rounded px-2 shadow-md ring">{{ msg }}</span>
+          <!-- <br> a Full Stack Developer. -->
+          <!-- <br> a <span class="font-normal">coder</span>. -->
         </h1>
         <br>
         <ul>
@@ -24,6 +25,12 @@
     <!-- <b-button variant="danger">Click</b-button> -->
   <!-- <c-badge c-badge mx="2" variant="solid" variant-color="green">Default</c-badge> -->
 
+    <div class="stage">
+      <div class="layer"></div>
+      <div class="layer"></div>
+      <div class="layer"></div>
+      <div class="layer"></div>
+    </div>
     </div>
 </template>
 
@@ -48,7 +55,11 @@ export default {
 <style scoped>
 @import '../../node_modules/bootstrap/dist/css/bootstrap.css';
 @import '../../node_modules/bootstrap-vue/dist/bootstrap-vue.css';
-@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap);
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Pacifico"); */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url("//fonts.googleapis.com/css?family=Roboto:700&text=css");
+@import url("//fonts.googleapis.com/css?family=Kaushan+Script&display=swap");
 * {
   text-align: center;
   color: white;
@@ -58,6 +69,9 @@ export default {
 }
 #name {
   font-weight: 600;
+  /* font-family: "Kaushan Script", sans-serif; */
+  font-size: 30px;
+  text-shadow: 2px 0px 3px #000000;
 }
 #profile {
   position: relative;

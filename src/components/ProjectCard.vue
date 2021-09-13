@@ -82,7 +82,7 @@
     class="mb-2 space-x-4"
   >
     <b-card-text>
-      EduMaterial was developed to join UN's SDG mission on Goals 4. This is a project for BITM2113 (Web Application Development) course in UTeM.
+      EduMaterial was developed to join UN's SDG mission on Goals 4. This is a group project for BITM2113 Web Application Development subject in UTeM.
     </b-card-text>
     <c-badge c-badge ml="2" font-size="1em" variant="solid" variant-color="orange">HTML5</c-badge>
     <c-badge c-badge ml="2" font-size="1em" variant="solid" variant-color="blue">CSS3</c-badge>
