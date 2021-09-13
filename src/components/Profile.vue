@@ -1,5 +1,5 @@
 <template>
-    <div class="max-w-xl px-4 md:px-14 text-center mx-auto mt-8 md:my-32 justify-content" id="profile">
+    <div class="max-w-xl px-4 md:px-14 text-center mx-auto mt-5 md:my-32 justify-content" id="profile">
       <br>
       <!-- <div>
         <img class="w-4 h-4 rounded-circle" :src="user.avatar" :alt="user.name">

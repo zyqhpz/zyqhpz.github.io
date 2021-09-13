@@ -19,179 +19,63 @@
 <section>
    <div class="px-8 pt-10 sm:pt-2 mx-auto text-center w-full">
       <h2 class="text-3xl font-semibold text-gray-200 underline">My Projects</h2>
-      <div class="flex items-center justify-center mt-10">
-         <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 " >
+      <div class="flex items-center justify-center mt-16">
+         <div class="grid grid-cols-1 gap-8 sm:grid-cols-2" >
+            <!-- fix here if got 3 cards md:grid-cols-3 -->
             <div>
-               <div class="max-w-xs overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-                  <img class="w-full" src="https://picsum.photos/600/300/?image=13" alt="Sunset in the mountains">
+               <div class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+                  <img class="w-full" src="../assets/img/cards/edumaterial.png" alt="Sunset in the mountains">
                   <div class="px-6 py-4">
-                     <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+                     <div class="font-bold text-xl mb-2">EduMaterial</div>
+                     <br>
                      <p class="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                        EduMaterial was developed to join UN's SDG mission on Goals 4. This is a group project for BITM2113 Web Application Development subject in UTeM.
                      </p>
                   </div>
                   <div class="px-6 pt-4 pb-2">
-                     <span class="inline-block bg-blue-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">#photography</span>
-                     <span class="inline-block bg-orange-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">#travel</span>
-                     <span class="inline-block bg-purple-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">#winter</span>
-                  </div>
-               </div>
-            </div>
-            <div>
-               <div class="max-w-xs overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-                  <img class="w-full" src="https://picsum.photos/600/300/?image=13" alt="Sunset in the mountains">
-                  <div class="px-6 py-4">
-                     <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-                     <p class="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
-                     </p>
-                  </div>
-                  <div class="px-6 pt-4 pb-2">
-                     <span class="inline-block bg-blue-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">#photography</span>
-                     <span class="inline-block bg-orange-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">#travel</span>
-                     <span class="inline-block bg-purple-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">#winter</span>
-                     <span class="inline-block bg-blue-600 rounded-md px-3 py-1 text-sm font-bold text-white mr-2 mb-2">CSS3</span>
+                     <span class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Web Development</span>
+                     <span class="inline-block bg-orange-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">HTML5</span>
+                     <span class="inline-block bg-blue-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">CSS3</span>
+                     <span class="inline-block bg-yellow-400 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Javascript</span>
+                     <span class="inline-block bg-purple-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">PHP</span>
+                     <!-- <span class="inline-block bg-blue-600 rounded-md px-3 py-1 text-sm font-bold text-white mr-2 mb-2">CSS3</span> -->
 
-                     <c-badge c-badge ml="2" font-size="1em" variant="solid" bg="#800080">PHP</c-badge>
+                     <!-- <c-badge c-badge ml="2" font-size="1em" variant="solid" bg="#800080">PHP</c-badge> -->
                   </div>
                </div>
             </div>
             <div>
-               <div class="max-w-xs overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+               <div class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
                   <img class="w-full h-23" src="../assets/img/cards/yolo.png" alt="Sunset in the mountains">
                   <div class="px-6 py-4">
-                     <div class="font-bold text-xl mb-2">Car Counter</div>
+                     <div class="font-bold text-xl mb-2">Vehicle Counter</div>
+                     <br>
                      <p class="text-gray-700 text-base">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                        Using YOLOv3 and OpenCV for object detection and classification in a video stream. DeepSORT was used for object tracking to assign a unique id for each detected object to count.
                      </p>
                   </div>
                   <div class="px-6 pt-4 pb-2">
-                     <span class="inline-block rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">Python</span>
-                     <span class="inline-block bg-red-600 rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2">Computer Vision</span>
+                     <!-- <span class="inline-block rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500">Python</span> -->
+                     <span class="inline-block bg-indigo-900 rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2">Computer Vision</span>
+                     <span class="inline-block rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2 bg-red-600">Python</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
 
-                  </div>
-               </div>
-            </div>
-            <div>
-               <div class="bg-white w-64 h-64 max-w-xs shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-               1232
-               </div>
-            </div>
-            <div>
-               <div class="bg-white w-64 h-64 max-w-xs shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-               1232
-               </div>
-            </div>
-            <div>
-               <div class="bg-white w-64 h-64 max-w-xs shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-               1232
-               </div>
-            </div>
-            <div>
-               <div class="bg-white w-64 h-64 max-w-xs shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-               1232
-               </div>
-            </div>
-            <div>
-               <div class="bg-white w-64 h-64 max-w-xs shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-               1232
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div class="px-8 pt-10 sm:pt-2 mx-auto text-center w-full">
-      <h2 class="text-3xl font-semibold text-gray-200 underline">My Projects JSON</h2>
-      <div class="flex items-center justify-center mt-10">
-         <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 " >
-            <div v-for="item in data" v-bind:key="item.id">
-               <div class="max-w-xs overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-                  <img class="w-full" v-bind:src="item.img" alt="Sunset in the mountains">
-                  <div class="px-6 py-4">
-                           <div class="font-bold text-xl mb-2">{{item.name}}</div>
-                     <p class="text-gray-700 text-base">
-                        {{item.description}}
-                     </p>
-                  </div>
-                  <div class="inline flex px-6 pt-4 pb-2 flex item-center flex-wrap justify-item">
-                     <div v-for="s in item.stack" :key="s.id">
-                        <span class="inline-block bg-blue-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2 ">{{s.name}}</span>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
 </section>
 </template>
 
 <script>
 // import data from  'src\assets\data.json'
-import { CBadge } from '@chakra-ui/vue'
+// import { CBadge } from '@chakra-ui/vue'
 
 export default {
     name: 'Tail',
     components: {
-       CBadge
+      //  CBadge
     },
-    data() {
-        return {
-         data: [
-            {
-            "id" : 1,
-            "name" : "EduMaterial",
-            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-            "img" : "https://picsum.photos/600/300/?image=13",
-            "stack" : [
-               {
-               "id" : 1,
-               "name" : "PHP",
-               "color" : "#800080"
-               },
-               {
-               "id" : 2,
-               "name" : "HTML5",
-               "color" : "#FF0000"
-               },
-               {
-               "id" : 3,
-               "name" : "CSS3",
-               "color" : "#FFA500"
-               },
-               {
-               "id" : 4,
-               "name" : "Javascript",
-               "color" : "#FFFF00"
-               },
-            ]
-         },
-         {
-            "id" : 2,
-            "name" : "Sunrise",
-            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-            "img" : "https://source.unsplash.com/photos/eOpewngf68w",
-         },
-         {
-            "id" : 3,
-            "name" : "Computer Vision",
-            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
-            "img" : "../assets/img/cards/yolo.png",
-            "stack" : [
-               {
-               "id" : 1,
-               "name" : "Python",
-               "color" : "#800080"
-               },
-               {
-               "id" : 2,
-               "name" : "Computer Vision",
-               "color" : "#FF0000"
-               },
-            ]
-         }
-            ]
-        }
-    }
 }
 </script>

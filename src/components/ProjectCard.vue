@@ -103,6 +103,31 @@
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
   </div>
+            <div>
+               <div class="bg-white w-64 h-64 max-w-xs shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+               1232
+               </div>
+            </div>
+            <div>
+               <div class="bg-white w-64 h-64 max-w-xs shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+               1232
+               </div>
+            </div>
+            <div>
+               <div class="bg-white w-64 h-64 max-w-xs shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+               1232
+               </div>
+            </div>
+            <div>
+               <div class="bg-white w-64 h-64 max-w-xs shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+               1232
+               </div>
+            </div>
+            <div>
+               <div class="bg-white w-64 h-64 max-w-xs shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+               1232
+               </div>
+            </div>
 </div>
   
   </ul>
