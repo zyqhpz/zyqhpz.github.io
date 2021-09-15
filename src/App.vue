@@ -42,6 +42,14 @@ export default {
   }
 }
 </script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7G46FJPWVE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7G46FJPWVE');
+</script>
 
 <style>
   @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
