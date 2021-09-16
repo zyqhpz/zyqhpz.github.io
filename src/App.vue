@@ -16,6 +16,7 @@
   <Profile msg="Haziq Hapiz"/>
   <img class="hidden w-10 mx-auto mb-12 md:block" src="./assets/img/arrow.gif" alt="arrow">
   <Tail/>
+  <Contact class="mx-auto px-4"/>
   <!-- <Card/> -->
   </div>
   <div class="bg-black bg-opacity-50 w-full h-12 mt-16 flex justify-center item-center align-middle">
@@ -30,6 +31,7 @@
 import Profile from './components/Profile.vue'
 // import Card from './components/ProjectCard.vue'
 // import Card from './components/Card.vue'
+import Contact from './components/Contact.vue'
 import Tail from './components/CardTail.vue'
 
 export default {
@@ -38,7 +40,8 @@ export default {
     // HelloWorld,
     Profile,
     // Card,
-    Tail
+    Tail,
+    Contact
   }
 }
 </script>
