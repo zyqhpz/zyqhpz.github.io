@@ -7,7 +7,7 @@
       <span class="ml-3 text-md no-underline">Haziq Hapiz</span>
     </a>
     <a class="flex title-font font-medium items-center text-white no-underline">
-      <span class="ml-3 text-md mdi mdi-email"></span>
+      <a class="ml-3 text-md mdi mdi-email text-white no-underline" href="mailto:haziq.hapiz@gmail.com"></a>
       <span class="ml-3 text-md no-underline">haziq.hapiz@gmail.com</span>
     </a>
   </div>
@@ -16,7 +16,7 @@
   <Profile msg="Haziq Hapiz"/>
   <img class="hidden w-10 mx-auto mb-12 md:block" src="./assets/img/arrow.gif" alt="arrow">
   <Tail/>
-  <Contact class="mx-auto px-4"/>
+  <!-- <Contact class="mx-auto px-4"/> -->
   <!-- <Card/> -->
   </div>
   <div class="bg-black bg-opacity-50 w-full h-12 mt-16 flex justify-center item-center align-middle">
@@ -31,7 +31,7 @@
 import Profile from './components/Profile.vue'
 // import Card from './components/ProjectCard.vue'
 // import Card from './components/Card.vue'
-import Contact from './components/Contact.vue'
+// import Contact from './components/Contact.vue'
 import Tail from './components/CardTail.vue'
 
 export default {
@@ -41,7 +41,7 @@ export default {
     Profile,
     // Card,
     Tail,
-    Contact
+    // Contact
   }
 }
 </script>

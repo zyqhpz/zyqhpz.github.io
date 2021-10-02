@@ -11,6 +11,11 @@ module.exports = {
         red: colors.rose,
         pink: colors.fuchsia,
         orange: colors.orange,
+        // laravel logo color
+        laravel: {
+          DEFAULT: '#F05340',
+        },
+        // laravel-logo: '#f8b195',
       },
     },
   },
