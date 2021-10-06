@@ -6,7 +6,7 @@
         <h1 class="text-center text-xl font-bold py-4">{{user.name}}</h1>
         <p class="text-center text-xl font-bold py-4">{{user.bio}}</p>
       </div> -->
-      <img class="mt-10 mx-auto transform scale-150 md:scale-100" src="../assets/img/zyq.png" alt="profile">
+      <img class="mt-10 mx-auto transform scale-150 md:scale-100" src="../assets/img/zyq.png" alt="profile picture of Haziq Hapiz">
         <h1>
           Hi, I'm
             <span id="name" name="title" class="tracking-wider bg-indigo-700 text-white rounded px-2 shadow-md ring">{{ msg }}</span>
