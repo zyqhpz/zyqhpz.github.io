@@ -57,6 +57,11 @@
                      <span class="inline-block bg-indigo-900 rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2">Computer Vision</span>
                      <span class="inline-block rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2 bg-red-600">Python</span>
                   </div>
+                  <div class="border-4 border-red-600">
+                     <h6 class="font-bold">
+                        Lesson Learnt
+                     </h6>
+                  </div>
                </div>
             </div>
             <div>
