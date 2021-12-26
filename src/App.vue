@@ -16,7 +16,7 @@
   <Profile msg="Haziq Hapiz"/>
   <img class="hidden w-10 mx-auto mb-12 md:block" src="./assets/img/arrow.gif" alt="arrow">
   <Tail/>
-  <Contribution/>
+  <!-- <Contribution/> -->
   <!-- <Contact class="mx-auto px-4"/> -->
   <!-- <Card/> -->
   </div>
@@ -34,7 +34,7 @@ import Profile from './components/Profile.vue'
 // import Card from './components/Card.vue'
 // import Contact from './components/Contact.vue'
 import Tail from './components/CardTail.vue'
-import Contribution from './components/Contribution.vue'
+// import Contribution from './components/Contribution.vue'
 
 export default {
   name: 'App',
@@ -43,7 +43,7 @@ export default {
     Profile,
     // Card,
     Tail,
-    Contribution,
+    // Contribution,
     // Contact
   }
 }
