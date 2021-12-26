@@ -1,21 +1,4 @@
 <template>
-<!-- <div class="px-24 h-screen bg-blue-700 flex flex-col justify-center items-center space-y-5">
-   <div class="bg-white rounded-xl shadow-2xl">
-      <div class="flex">
-         <img src="https://images.unsplash.com/photo-1610720657521-c38abf6dbb7d?" alt="boy with camera" class="rounded-tl-xl w-60 object-cover">
-         <div class="p-8">
-            <h3 class="font-bold text-2xl mb-5">Build a Card</h3>
-            <p>This card has a header, body, and footer. This is where the content of the card goes.</p>
-            <button class="mt-5 rounded-lg px-4 py-2 bg-blue-500 text-blue-50 shadow hover:shadow-xl duration-300">
-              Get Started
-            </button>
-          </div>
-      </div>
-      <footer class="rounded-b-lg bg-gray-100 text-sm text-gray-500 px-8 py-3 text-right">
-        Updated 3 days ago
-      </footer>
-   </div>
-</div> -->
 <section>
    <div class="px-8 pt-10 sm:pt-2 mx-auto text-center w-full">
       <h2 class="text-3xl font-semibold text-gray-200 underline">My Projects</h2>
@@ -24,7 +7,7 @@
             <!-- fix here if got 3 cards md:grid-cols-3 -->
             <div>
                <div class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-                  <img class="w-full" src="../assets/img/cards/edumaterial.png" alt="Sunset in the mountains">
+                  <img class="w-full" src="../assets/img/cards/edumaterial.png" alt="EduMaterial project image">
                   <div class="px-6 py-4">
                      <div class="font-bold text-xl mb-2">EduMaterial</div>
                      <br>
@@ -44,7 +27,7 @@
             </div>
             <div>
                <div class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-                  <img class="w-full h-23" src="../assets/img/cards/yolo.png" alt="Sunset in the mountains">
+                  <img class="w-full h-23" src="../assets/img/cards/yolo.png" alt="Vehicle Counter project image">
                   <div class="px-6 py-4">
                      <div class="font-bold text-xl mb-2">Vehicle Counter</div>
                      <br>
@@ -66,7 +49,7 @@
             </div>
             <div>
                <div class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-                  <img class="w-full h-23 bg-cover" src="../assets/img/cards/daftar-jumaat.png" alt="Sunset in the mountains">
+                  <img class="w-full h-23 bg-cover" src="../assets/img/cards/daftarjumaat.png" alt="Daftar Jumaat project image">
                   <div class="px-6 py-4">
                      <div class="font-bold text-xl mb-2">Daftar Jumaat</div>
                      <br>
