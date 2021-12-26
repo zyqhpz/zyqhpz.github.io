@@ -49,7 +49,7 @@
             </div>
             <div>
                <div class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-                  <img class="w-full h-23 bg-cover" src="../assets/img/cards/daftarjumaat.png" alt="Daftar Jumaat project image">
+                  <img class="w-full h-23 bg-cover" src="../assets/img/cards/daftarjumaat.jpg" alt="Daftar Jumaat project image">
                   <div class="px-6 py-4">
                      <div class="font-bold text-xl mb-2">Daftar Jumaat</div>
                      <br>
