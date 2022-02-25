@@ -65,6 +65,22 @@
                   </div>
                </div>
             </div>
+            <div>
+               <div class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+                  <img class="w-full h-23 bg-cover" src="../assets/img/cards/wp-portfolio.jpg" alt="Daftar Jumaat project image">
+                  <div class="px-6 py-4">
+                     <div class="font-bold text-xl mb-2">Payment Gateway Integration</div>
+                     <br>
+                     <p class="text-gray-700 text-base">
+                        Integrate DuitNow Online Banking and JomPay in Wordpress website. Do some customizations on the website depending on the requirements.
+                     </p>
+                  </div>
+                  <div class="px-6 pt-auto pb-4">
+                     <span class="inline-block bg-purple-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">PHP</span>
+                     <span class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Web Development</span>
+                  </div>
+               </div>
+            </div>
          </div>
       </div>
    </div>
