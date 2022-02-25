@@ -67,12 +67,12 @@
             </div>
             <div>
                <div class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-                  <img class="w-full h-23 bg-cover" src="../assets/img/cards/wp-portfolio.jpg" alt="Daftar Jumaat project image">
+                  <img class="w-full h-23 bg-cover" src="../assets/img/cards/wp-portfolio.png" alt="Payment gateway integration project image">
                   <div class="px-6 py-4">
                      <div class="font-bold text-xl mb-2">Payment Gateway Integration</div>
                      <br>
                      <p class="text-gray-700 text-base">
-                        Integrate DuitNow Online Banking and JomPay in Wordpress website. Do some customizations on the website depending on the requirements.
+                        Freelance task to integrate DuitNow Online Banking and JomPay in Wordpress website. Do some customizations on the website depending on the requirements.
                      </p>
                   </div>
                   <div class="px-6 pt-auto pb-4">
