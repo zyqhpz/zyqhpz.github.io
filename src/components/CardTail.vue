@@ -72,7 +72,7 @@
                      <div class="font-bold text-xl mb-2">Payment Gateway Integration</div>
                      <br>
                      <p class="text-gray-700 text-base">
-                        Freelance task to integrate DuitNow Online Banking and JomPay in Wordpress website. Do some customizations on the website depending on the requirements.
+                        Freelance task to integrate DuitNow Online Banking and JomPay in Wordpress website. I did some customizations on the website depending on the requirements.
                      </p>
                   </div>
                   <div class="px-6 pt-auto pb-4">
