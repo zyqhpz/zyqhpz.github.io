@@ -81,6 +81,21 @@
                   </div>
                </div>
             </div>
+            <div>
+               <div class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+                  <img class="w-full h-23 bg-cover" src="../assets/img/cards/wp-portfolio.png" alt="Payment gateway integration project image">
+                  <div class="px-6 py-4">
+                     <div class="font-bold text-xl mb-2">FoodBear Delivery System</div>
+                     <br>
+                     <p class="text-gray-700 text-base">
+                        Individual project for Workshop 1 subject at UTeM. This is a food delivery system that allows users to order food and get it delivered to their doorstep.
+                     </p>
+                  </div>
+                  <div class="px-6 pt-auto pb-4">
+                     <span class="inline-block bg-blue-900 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">C++</span>
+                  </div>
+               </div>
+            </div>
          </div>
       </div>
    </div>
