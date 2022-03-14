@@ -83,12 +83,12 @@
             </div>
             <div>
                <div class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-                  <img class="w-full h-23 bg-cover" src="../assets/img/cards/wp-portfolio.png" alt="Payment gateway integration project image">
+                  <img class="w-full h-23 bg-cover" src="../assets/img/cards/foodbear.png" alt="Payment gateway integration project image">
                   <div class="px-6 py-4">
                      <div class="font-bold text-xl mb-2">FoodBear Delivery System</div>
                      <br>
                      <p class="text-gray-700 text-base">
-                        Individual project for Workshop 1 subject at UTeM. This is a food delivery system that allows users to order food and get it delivered to their doorstep.
+                        An individual project for Workshop 1 subject at UTeM in Windows terminal. This is a food delivery system that allows users to order food and get it delivered to their doorstep.
                      </p>
                   </div>
                   <div class="px-6 pt-auto pb-4">
