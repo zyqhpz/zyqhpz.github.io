@@ -1,17 +1,6 @@
 <template>
 <div>
-  <header>
-  <div class="hidden container mx-auto flex-wrap pt-5 flex-col sm:flex md:flex-row items-center justify-between">
-    <a class="flex title-font font-medium items-center text-white no-underline">
-      <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-6 w-6 sm:h-6 sm:w-6"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
-      <span class="ml-3 text-md no-underline">Haziq Hapiz</span>
-    </a>
-    <a class="flex title-font font-medium items-center text-white no-underline">
-      <a class="ml-3 text-md mdi mdi-email text-white no-underline" href="mailto:haziq.hapiz@gmail.com"></a>
-      <span class="ml-3 text-md no-underline">haziq.hapiz@gmail.com</span>
-    </a>
-  </div>
-</header>
+  <Header/>
   <div class="flex flex-col justify-center pt-8 md:pt-0">
   <Profile msg="Haziq Hapiz"/>
   <img class="hidden w-10 mx-auto mb-12 md:block" src="./assets/img/arrow.gif" alt="arrow">
@@ -20,11 +9,7 @@
   <!-- <Contact class="mx-auto px-4"/> -->
   <!-- <Card/> -->
   </div>
-  <div class="bg-black bg-opacity-50 w-full h-12 mt-16 flex justify-center item-center align-middle">
-    <h4 class="text-white my-auto text-base md:text-lg align-middle">
-      Developed with ❤ by Haziq Hapiz © {{ year }}
-    </h4>
-  </div>
+  <Footer/>
 </div>
 </template>
 
@@ -36,6 +21,9 @@ import Profile from './components/Profile.vue'
 import Tail from './components/CardTail.vue'
 // import Contribution from './components/Contribution.vue'
 
+import Header from './components/Header.vue'
+import Footer from './components/Footer.vue'
+
 export default {
   name: 'App',
   components: {
@@ -45,11 +33,8 @@ export default {
     Tail,
     // Contribution,
     // Contact
-  },
-  data() {
-    return {
-      year: new Date().getFullYear(),
-    }
+    Header,
+    Footer
   },
 }
 </script>

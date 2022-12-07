@@ -72,7 +72,7 @@
                      <div class="font-bold text-xl mb-2">Payment Gateway Integration</div>
                      <br>
                      <p class="text-gray-700 text-base">
-                        Freelance task to integrate DuitNow Online Banking and JomPay in Wordpress website. I did some customizations on the website depending on the requirements.
+                        Freelance task to integrate DuitNow Online Banking and JomPay in Wordpress website. I did some customizations on the website depending on the requirements given by the client.
                      </p>
                   </div>
                   <div class="px-6 pt-auto pb-4">
@@ -88,7 +88,7 @@
                      <div class="font-bold text-xl mb-2">FoodBear Delivery System</div>
                      <br>
                      <p class="text-gray-700 text-base">
-                        An individual project for Workshop 1 subject at UTeM in Windows terminal. This is a food delivery system that allows users to order food and get it delivered to their doorstep.
+                        An individual project for Workshop 1 subject at UTeM and as a terminal-based application. This is a food delivery system that allows users to order food and get it delivered to their doorstep.
                      </p>
                   </div>
                   <div class="px-6 pt-auto pb-4">
