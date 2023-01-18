@@ -1,17 +1,10 @@
 <template>
     <div class="max-w-xl px-4 md:px-14 text-center mx-auto mt-5 md:my-32 justify-content" id="profile">
       <br>
-      <!-- <div>
-        <img class="w-4 h-4 rounded-circle" :src="user.avatar" :alt="user.name">
-        <h1 class="text-center text-xl font-bold py-4">{{user.name}}</h1>
-        <p class="text-center text-xl font-bold py-4">{{user.bio}}</p>
-      </div> -->
       <img class="mt-10 mx-auto transform scale-150 md:scale-100" src="../assets/img/zyq.png" alt="profile picture of Haziq Hapiz">
         <h1>
           Hi, I'm
             <span id="name" name="title" class="tracking-wider bg-indigo-700 text-white rounded px-2 shadow-md ring">{{ msg }}</span>
-          <!-- <br> a Full Stack Developer. -->
-          <!-- <br> a <span class="font-normal">coder</span>. -->
         </h1>
         <br>
         <ul>
@@ -20,11 +13,7 @@
           <li><a content="@haziqhapiz" v-tippy="{arrow: true, arrowType : 'round', followCursor : 'horizontal' }" class="mdi mdi-twitter" href="https://twitter.com/haziqhapiz" target="_blank" rel="noopener noreferrer"></a></li>
           <li><a content="zyqhpz" v-tippy="{arrow: true, arrowType : 'round', followCursor : 'horizontal' }" class="mdi mdi-github" href="https://github.com/zyqhpz" target="_blank" rel="noopener noreferrer"></a></li>
           <li><a content="Haziq Hapiz" v-tippy="{arrow: true, arrowType : 'round', followCursor : 'horizontal' }" class="mdi mdi-linkedin" href="https://linkedin.com/in/haziqhapiz" target="_blank" rel="noopener noreferrer"></a></li>
-    <!-- <i class="mdi mdi-facebook"></i> -->
         </ul>
-    <!-- <b-button variant="danger">Click</b-button> -->
-  <!-- <c-badge c-badge mx="2" variant="solid" variant-color="green">Default</c-badge> -->
-
     <div class="stage">
       <div class="layer"></div>
       <div class="layer"></div>
@@ -35,20 +24,13 @@
 </template>
 
 <script>
-// import { CBadge } from '@chakra-ui/vue'
 
 export default {
   name: 'Profile',
   props: {
     msg: String
   },
-  // components: {
-  //   CBadge
-  // }
 }
-  // tippy('#fb', {
-  //   content: 'Haziq Hapiz',
-  // })
   
 </script>
 
