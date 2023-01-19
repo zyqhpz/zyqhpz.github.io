@@ -1,7 +1,8 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-  purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+  purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
@@ -13,7 +14,7 @@ module.exports = {
         orange: colors.orange,
         // laravel logo color
         laravel: {
-          DEFAULT: '#F05340',
+          DEFAULT: "#F05340",
         },
         // laravel-logo: '#f8b195',
       },
@@ -22,5 +23,6 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
-}
+  plugins: [require("flowbite/plugin")],
+  content: ["./node_modules/flowbite/**/*.js"],
+};

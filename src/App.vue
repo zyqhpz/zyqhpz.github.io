@@ -1,46 +1,30 @@
 <template>
-<div>
-  <Header/>
-  <div class="flex flex-col justify-center pt-8 md:pt-0">
-  <Profile msg="Haziq Hapiz"/>
-  <img class="hidden w-10 mx-auto mb-12 md:block" src="./assets/img/arrow.gif" alt="arrow">
-  <Tail/>
-  <!-- <Contribution/> -->
-  <!-- <Contact class="mx-auto px-4"/> -->
-  <!-- <Card/> -->
+  <div id="app">
+    <HeaderRoute/>
+    <br>
+    <router-view/>
+    <Footer/>
   </div>
-  <Footer/>
-</div>
 </template>
 
 <script>
-import Profile from './components/Profile.vue'
-// import Card from './components/ProjectCard.vue'
-// import Card from './components/Card.vue'
-// import Contact from './components/Contact.vue'
-import Tail from './components/CardTail.vue'
-// import Contribution from './components/Contribution.vue'
 
-import Header from './components/Header.vue'
-import Footer from './components/Footer.vue'
+import HeaderRoute from './components/HeaderRoute.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
-    // HelloWorld,
-    Profile,
-    // Card,
-    Tail,
-    // Contribution,
-    // Contact
-    Header,
+    HeaderRoute,
     Footer
   },
 }
 </script>
 
+
 <style>
-  @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
+
 * {
   font-family: 'Poppins', sans-serif;
 }

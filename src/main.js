@@ -13,6 +13,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 import VueTippy, { TippyComponent } from "vue-tippy"
 import Chakra, { CThemeProvider } from '@chakra-ui/vue'
+import router from './router'
 
 Vue.use(BootstrapVue)
 Vue.use(VueTippy);
@@ -27,7 +28,8 @@ Vue.config.productionTip = false
 Vue.use(IconsPlugin)
 
 new Vue({
-  render: h => h(CThemeProvider, [h(App)]),
+ router,
+ render: h => h(CThemeProvider, [h(App)])
 }).$mount('#app')
 
 // TODO 
