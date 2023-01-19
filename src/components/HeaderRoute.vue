@@ -9,14 +9,11 @@
         <div class="flex items-center justify-evenly">
             <router-link to="/" class="ml-3 title-font font-medium text-md text-white no-underline mx-4" href="">Home</router-link>
             <router-link to="/project" class="ml-3 title-font font-medium text-md text-white no-underline mx-4" href="">Projects</router-link>
-            <a class="ml-3 title-font font-medium text-md text-white no-underline mx-4" href="/resume.pdf" target="_blank">Resume</a>
+            <router-link to="/qualification" class="ml-3 title-font font-medium text-md text-white no-underline mx-4" href="">Qualification</router-link>
             <router-link to="/about" class="ml-3 title-font font-medium text-md text-white no-underline mx-4" href="">About Me</router-link>
-            <a class="ml-3 title-font font-medium text-md text-white no-underline mx-4" href="">Contact Me</a>
+            <a class="ml-3 title-font font-medium text-md text-white no-underline mx-4" href="/resume.pdf" target="_blank">Resume</a>
+            <router-link to="/contact" class="ml-3 title-font font-medium text-md text-white no-underline mx-4" href="">Contact</router-link>
         </div>
-        <!-- <nav>
-            <router-link to="/">Home</router-link> |
-            <router-link to="/about">About</router-link>
-        </nav> -->
     </header>
 </template>
 
