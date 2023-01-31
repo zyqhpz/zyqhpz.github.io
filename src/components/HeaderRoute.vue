@@ -18,7 +18,7 @@
             </div>
         </nav>
 
-        <nav class="md:hidden flex container mx-auto flex-wrap pt-2 pb-5 flex-col sm:flex md:flex-row items-center justify-between">
+        <nav class="md:hidden flex container mx-auto flex-wrap pb-2 flex-col sm:flex md:flex-row items-center justify-between">
             <div class="container flex flex-wrap items-center justify-between mx-auto">
                 <div>
                     <a class="flex title-font font-medium items-center text-white no-underline">
@@ -31,7 +31,7 @@
                 <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
                 </button>
                 <div class="hidden w-full" id="navbar-hamburger">
-                    <ul class="block mt-4 rounded-lg bg-gray-200 list-none items-center px-0">
+                    <ul class="block mt-4 rounded-lg bg-gray-200 list-none items-start px-0">
                         <li>
                             <router-link to="/" class="block py-2 px-4 text-sm no-underline rounded text-gray-800 hover:bg-gray-300">Home</router-link>
                         </li>
