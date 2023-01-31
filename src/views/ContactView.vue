@@ -10,7 +10,7 @@
                 <li class="text-gray-700">Email: <a class="underline" href="mailto:haziq.hapiz@gmail.com">haziq.hapiz@gmail.com</a></li>
             </ul>
         </div>
-        <form>
+        <!-- <form>
             <div class="mb-4">
             <label class="block text-gray-700 font-medium mb-2" for="name">
                 Name
@@ -52,7 +52,7 @@
                 Send
             </button>
             </div>
-        </form>
+        </form> -->
     </div>
 </div>
 </template>
