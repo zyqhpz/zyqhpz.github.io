@@ -4,15 +4,15 @@
             <div class="p-10 md:p-12 text-gray-700 text-md">I am <b>adaptive, independent, and a fast learner</b>. I am capable of learning new tech stacks and applying them to develop a project <b>within two weeks</b>. I am passionate about web development, specifically <b>back-end development</b>. I love to code and am an enthusiast for learning new things.</div>
         </div>
         <div id="box" class="mx-auto mt-12 max-w-xs md:max-w-md h-auto px-4 py-8 sm:p-8 bg-gray-200 text-gray-700">
-            <div class="text-md mb-4">Favourite Tech Stack:</div>
+            <div class="text-md mb-4">Preferred Tech Stack:</div>
             <div class="text-sm">
-                <b>Back-End:</b> PHP (Laravel)
+                <b>Back-End:</b> PHP (Laravel), Go
             </div>
             <div class="text-sm">
-                <b>Front-End:</b> VueJS
+                <b>Front-End:</b> Vue, React
             </div>
             <div class="text-sm">
-                <b>Styling:</b> Tailwind
+                <b>Styling:</b> Tailwind, Bootstrap
             </div>
             <div class="text-sm">
                 <b>Server Management Tools:</b> AWS, RunCloud
