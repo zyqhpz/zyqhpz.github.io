@@ -6,16 +6,16 @@
         <div id="box" class="mx-auto mt-12 max-w-xs md:max-w-md h-auto px-4 py-8 sm:p-8 bg-gray-200 text-gray-700">
             <div class="text-md mb-4">Preferred Tech Stack:</div>
             <div class="text-sm">
-                <b>Back-End:</b> PHP (Laravel), Go
+                <b>Back-End:</b> PHP (Laravel), Go, Java
             </div>
             <div class="text-sm">
-                <b>Front-End:</b> Vue, React
+                <b>Front-End:</b> Vue, React, jQuery
             </div>
             <div class="text-sm">
                 <b>Styling:</b> Tailwind, Bootstrap
             </div>
             <div class="text-sm">
-                <b>Server Management Tools:</b> AWS, RunCloud
+                <b>Server Management Tools:</b> AWS Lightsail, RunCloud
             </div>
         </div>
     </div>
