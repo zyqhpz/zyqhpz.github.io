@@ -13,8 +13,7 @@
                 <router-link to="/project" class="ml-3 title-font font-medium text-md text-white no-underline mx-4" href="">Projects</router-link>
                 <router-link to="/qualification" class="ml-3 title-font font-medium text-md text-white no-underline mx-4" href="">Qualification</router-link>
                 <router-link to="/about" class="ml-3 title-font font-medium text-md text-white no-underline mx-4" href="">About Me</router-link>
-                <a class="ml-3 title-font font-medium text-md text-white no-underline mx-4" href="/resume.pdf" target="_blank">Resume</a>
-                <!-- <router-link to="/contact" class="ml-3 title-font font-medium text-md text-white no-underline mx-4" href="">Contact</router-link> -->
+                <a class="ml-3 title-font font-medium text-md text-white no-underline mx-4" href="https://drive.google.com/drive/folders/12x2SWgZW4xEiDh_1jM58uyZpDVmPKHz-?usp=sharing" target="_blank">Resume</a>
             </div>
         </nav>
 
@@ -45,7 +44,7 @@
                             <router-link to="/about" href="#" class="block py-2 px-4 text-sm no-underline rounded text-gray-800 border-t-2 border-gray-500 hover:bg-gray-300">About Me</router-link>
                         </li>
                         <li>
-                            <a href="/resume.pdf" target="_blank" class="block py-2 pl-3 pr-4 text-sm no-underline rounded text-gray-800 border-t-2 border-gray-500 hover:bg-gray-300">Resume</a>
+                            <a href="https://drive.google.com/drive/folders/12x2SWgZW4xEiDh_1jM58uyZpDVmPKHz-?usp=sharing" target="_blank" class="block py-2 pl-3 pr-4 text-sm no-underline rounded text-gray-800 border-t-2 border-gray-500 hover:bg-gray-300">Resume</a>
                         </li>
                     </ul>
                 </div>

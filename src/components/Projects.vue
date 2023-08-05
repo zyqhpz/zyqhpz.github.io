@@ -7,6 +7,47 @@
             <!-- fix here if got 3 cards md:grid-cols-3 -->
             <div>
                <div class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+                  <img class="w-full h-23 bg-cover" src="../assets/img/cards/eventeq.png" alt="EventEQ project image">
+                  <div class="px-6 py-4">
+                     <div class="flex flex-col font-bold text-xl mb-2">
+                        <span>EventEQ</span>
+                        <span class="text-xs">(Final Year Project)</span>
+                     </div>
+                     <br>
+                     <p class="text-gray-700 text-base">
+                        A user-friendly web platform for renting high-quality PA system items The platform has camera capabilities for equipment verification through QR code scanning and AI, ensuring a seamless rental experience.
+                     </p>
+                  </div>
+                  <div class="px-6 pt-auto pb-4">
+                     <span class="inline-block bg-react rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2 ">React</span>
+                     <span class="inline-block bg-go rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Go</span>
+                     <span class="inline-block bg-mongodb rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">MongoDB</span>
+                     <span class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Web Development</span>
+                  </div>
+               </div>
+            </div>
+            <div>
+               <div class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+                  <img class="w-full h-23 bg-cover" src="../assets/img/cards/ekk.jpg" alt="E-Kertas Kerja project image">
+                  <div class="px-6 py-4">
+                     <div class="flex flex-col font-bold text-xl mb-2">
+                        <span>e-Kertas Kerja</span>
+                        <span class="text-xs">(Workshop 2)</span>
+                     </div>
+                     <br>
+                     <p class="text-gray-700 text-base">
+                        A web application for student clubs and university management streamlines paperwork management. It tracks approval status and offers a paperwork generator with the latest formats, saving time and improving efficiency.
+                     </p>
+                  </div>
+                  <div class="px-6 pt-auto pb-4">
+                     <span class="inline-block bg-laravel rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2 ">Laravel</span>
+                     <span class="inline-block bg-purple-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">PHP</span>
+                     <span class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Web Development</span>
+                  </div>
+               </div>
+            </div>
+            <div>
+               <div class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
                   <img class="w-full" src="../assets/img/cards/edumaterial.png" alt="EduMaterial project image">
                   <div class="px-6 py-4">
                      <div class="font-bold text-xl mb-2">EduMaterial</div>
@@ -75,7 +116,7 @@
             </div>
             <div>
                <div class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-                  <img class="w-full h-23 bg-cover" src="../assets/img/cards/foodbear.png" alt="Payment gateway integration project image">
+                  <img class="w-full h-23 bg-cover" src="../assets/img/cards/foodbear.png" alt="FoodBear project image">
                   <div class="px-6 py-4">
                      <div class="font-bold text-xl mb-2">FoodBear Delivery System</div>
                      <br>

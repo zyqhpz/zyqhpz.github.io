@@ -10,7 +10,7 @@
                     </div>
                     <div class="mt-2 text-gray-700">
                     <div class="font-medium">University:</div>
-                    <div class="text-sm">Universiti Teknikal Malaysia Melaka</div>
+                    <div class="text-sm">Universiti Teknikal Malaysia Melaka (UTeM)</div>
                     </div>
                     <div class="mt-2 text-gray-700">
                     <div class="font-medium">Years of Study:</div>
@@ -22,7 +22,7 @@
                 <div class="my-2">
                     <div class="text-gray-700">
                     <div class="font-medium">Matriculation:</div>
-                    <div class="text-sm">Sijil Matrikulasi (Modul 2)</div>
+                    <div class="text-sm">Sijil Matrikulasi (Module 2)</div>
                     </div>
                     <div class="mt-2 text-gray-700">
                     <div class="font-medium">College:</div>
