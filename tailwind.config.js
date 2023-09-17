@@ -23,6 +23,12 @@ module.exports = {
         mongodb: {
           DEFAULT: "#589636",
         },
+        docker: {
+          DEFAULT: "#0DB7ED",
+        },
+        aws: {
+          DEFAULT: "#FF9900",
+        },
       },
     },
   },
