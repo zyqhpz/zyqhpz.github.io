@@ -15,13 +15,15 @@
                      </div>
                      <br>
                      <p class="text-gray-700 text-base">
-                        A user-friendly web platform for renting high-quality PA system items The platform has camera capabilities for equipment verification through QR code scanning and AI, ensuring a seamless rental experience.
+                        A user-friendly web platform for renting high-quality PA system items The platform has camera capabilities for equipment verification through QR code scanning, ensuring a seamless rental experience.
                      </p>
                   </div>
                   <div class="px-6 pt-auto pb-4">
                      <span class="inline-block bg-react rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2 ">React</span>
                      <span class="inline-block bg-go rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Go</span>
                      <span class="inline-block bg-mongodb rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">MongoDB</span>
+                     <span class="inline-block bg-docker rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Docker</span>
+                     <span class="inline-block bg-aws rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">AWS</span>
                      <span class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Web Development</span>
                   </div>
                </div>
@@ -48,6 +50,22 @@
             </div>
             <div>
                <div class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+                  <img class="w-full h-23 bg-cover" src="../assets/img/cards/wp-portfolio.png" alt="Payment gateway integration project image">
+                  <div class="px-6 py-4">
+                     <div class="font-bold text-xl mb-2">Payment Gateway Integration</div>
+                     <br>
+                     <p class="text-gray-700 text-base">
+                        Freelance task to integrate DuitNow Online Banking and JomPay in Wordpress website. I did some customizations on the website depending on the requirements given by the client.
+                     </p>
+                  </div>
+                  <div class="px-6 pt-auto pb-4">
+                     <span class="inline-block bg-purple-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">PHP</span>
+                     <span class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Web Development</span>
+                  </div>
+               </div>
+            </div>
+            <div>
+               <div class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
                   <img class="w-full" src="../assets/img/cards/edumaterial.png" alt="EduMaterial project image">
                   <div class="px-6 py-4">
                      <div class="font-bold text-xl mb-2">EduMaterial</div>
@@ -57,11 +75,11 @@
                      </p>
                   </div>
                   <div class="px-6 pt-auto pb-4">
-                     <span class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Web Development</span>
                      <span class="inline-block bg-orange-400 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">HTML5</span>
                      <span class="inline-block bg-blue-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">CSS3</span>
                      <span class="inline-block bg-yellow-400 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Javascript</span>
                      <span class="inline-block bg-purple-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">PHP</span>
+                     <span class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Web Development</span>
                   </div>
                </div>
             </div>
@@ -93,22 +111,6 @@
                   </div>
                   <div class="px-6 pt-auto pb-4">
                      <span class="inline-block bg-laravel rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2 ">Laravel</span>
-                     <span class="inline-block bg-purple-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">PHP</span>
-                     <span class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Web Development</span>
-                  </div>
-               </div>
-            </div>
-            <div>
-               <div class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-                  <img class="w-full h-23 bg-cover" src="../assets/img/cards/wp-portfolio.png" alt="Payment gateway integration project image">
-                  <div class="px-6 py-4">
-                     <div class="font-bold text-xl mb-2">Payment Gateway Integration</div>
-                     <br>
-                     <p class="text-gray-700 text-base">
-                        Freelance task to integrate DuitNow Online Banking and JomPay in Wordpress website. I did some customizations on the website depending on the requirements given by the client.
-                     </p>
-                  </div>
-                  <div class="px-6 pt-auto pb-4">
                      <span class="inline-block bg-purple-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">PHP</span>
                      <span class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Web Development</span>
                   </div>

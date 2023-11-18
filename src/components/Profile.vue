@@ -8,7 +8,6 @@
         </h1>
         <br>
         <ul>
-          <li><a id="fb" content="Haziq Hapiz" v-tippy="{arrow: true, arrowType : 'round', followCursor : 'horizontal' }" class="mdi mdi-facebook" href="https://facebook.com/haziqhapiz" target="_blank" rel="noopener noreferrer"></a></li>
           <li><a content="@haziqhapiz" v-tippy="{arrow: true, arrowType : 'round', followCursor : 'horizontal' }" class="mdi mdi-instagram" href="https://instagram.com/haziqhapiz" target="_blank" rel="noopener noreferrer"></a></li>
           <li><a content="@haziqhapiz" v-tippy="{arrow: true, arrowType : 'round', followCursor : 'horizontal' }" class="mdi mdi-twitter" href="https://twitter.com/haziqhapiz" target="_blank" rel="noopener noreferrer"></a></li>
           <li><a content="zyqhpz" v-tippy="{arrow: true, arrowType : 'round', followCursor : 'horizontal' }" class="mdi mdi-github" href="https://github.com/zyqhpz" target="_blank" rel="noopener noreferrer"></a></li>
