@@ -7,6 +7,24 @@
             <!-- fix here if got 3 cards md:grid-cols-3 -->
             <div>
                <div class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+                  <img class="w-full h-23 bg-cover" src="../assets/img/cards/kirapelaburan.png" alt="Kira Pelaburan project image" href="https://kira-pelaburan.vercel.app/" target="_blank">
+                  <div class="px-6 py-4">
+                     <div class="flex flex-col font-bold text-xl mb-2">
+                        <span>Kira Pelaburan</span>
+                     </div>
+                     <br>
+                     <p class="text-gray-700 text-base">
+                        Kira Pelaburan is an advanced investment calculator for personalized financial planning. Tailor your strategy with multiple monthly contributions, interest rates, and investment durations, gaining control over your portfolio's growth.
+                     </p>
+                  </div>
+                  <div class="px-6 pt-auto pb-4">
+                     <span class="inline-block bg-nextjs rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2">NextJS</span>
+                     <span class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Web Development</span>
+                  </div>
+               </div>
+            </div>
+            <div>
+               <div class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
                   <img class="w-full h-23 bg-cover" src="../assets/img/cards/eventeq.png" alt="EventEQ project image">
                   <div class="px-6 py-4">
                      <div class="flex flex-col font-bold text-xl mb-2">
@@ -19,7 +37,7 @@
                      </p>
                   </div>
                   <div class="px-6 pt-auto pb-4">
-                     <span class="inline-block bg-react rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2 ">React</span>
+                     <span class="inline-block bg-react rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2">React</span>
                      <span class="inline-block bg-go rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Go</span>
                      <span class="inline-block bg-mongodb rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">MongoDB</span>
                      <span class="inline-block bg-docker rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Docker</span>
@@ -42,7 +60,7 @@
                      </p>
                   </div>
                   <div class="px-6 pt-auto pb-4">
-                     <span class="inline-block bg-laravel rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2 ">Laravel</span>
+                     <span class="inline-block bg-laravel rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2">Laravel</span>
                      <span class="inline-block bg-purple-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">PHP</span>
                      <span class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Web Development</span>
                   </div>
