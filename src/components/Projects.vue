@@ -14,7 +14,7 @@
                      </div>
                      <br>
                      <p class="text-gray-700 text-base">
-                        Kira Pelaburan is an advanced investment calculator for personalized financial planning. Tailor your strategy with multiple monthly contributions, interest rates, and investment durations, gaining control over your portfolio's growth.
+                        Kira Pelaburan is an advanced investment calculator for personalised financial planning. Tailor your strategy with multiple monthly contributions, interest rates, and investment durations with a single click.
                      </p>
                   </div>
                   <div class="px-6 pt-auto pb-4">
