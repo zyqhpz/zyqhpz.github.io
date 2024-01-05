@@ -7,7 +7,7 @@
             <!-- fix here if got 3 cards md:grid-cols-3 -->
             <div>
                <div class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-                  <img class="w-full h-23 bg-cover" src="../assets/img/cards/kirapelaburan.png" alt="Kira Pelaburan project image" href="https://kira-pelaburan.vercel.app/" target="_blank">
+                  <img class="w-full h-23 bg-cover pointer-events-auto cursor-pointer" src="../assets/img/cards/kirapelaburan.png" alt="Kira Pelaburan project image" @click="openKiraPelaburan()">
                   <div class="px-6 py-4">
                      <div class="flex flex-col font-bold text-xl mb-2">
                         <span>Kira Pelaburan</span>
@@ -157,9 +157,17 @@
 
 <script>
 
+function openKiraPelaburan() {
+  console.log('openKiraPelaburan');
+  window.open('https://kira-pelaburan.vercel.app/', '_blank');
+}
+
 export default {
     name: 'Projects',
     components: {
     },
+    methods: {
+      openKiraPelaburan
+    }
 }
 </script>
