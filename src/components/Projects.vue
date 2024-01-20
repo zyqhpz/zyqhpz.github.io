@@ -25,7 +25,7 @@
             </div>
             <div>
                <div class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-                  <img class="w-full h-23 bg-cover" src="../assets/img/cards/eventeq.png" alt="EventEQ project image">
+                  <img class="w-full h-23 bg-cover pointer-events-auto cursor-pointer" src="../assets/img/cards/eventeq.png" alt="EventEQ project image" @click="openEventEQ()">
                   <div class="px-6 py-4">
                      <div class="flex flex-col font-bold text-xl mb-2">
                         <span>EventEQ</span>
@@ -103,7 +103,7 @@
             </div>
             <div>
                <div class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
-                  <img class="w-full h-23" src="../assets/img/cards/yolo.png" alt="Vehicle Counter project image">
+                  <img class="w-full h-23 bg-cover pointer-events-auto cursor-pointer" src="../assets/img/cards/yolo.png" alt="Vehicle Counter project image" @click="openOpenCV()">
                   <div class="px-6 py-4">
                      <div class="font-bold text-xl mb-2">Vehicle Counter</div>
                      <br>
@@ -158,8 +158,15 @@
 <script>
 
 function openKiraPelaburan() {
-  console.log('openKiraPelaburan');
   window.open('https://kira-pelaburan.vercel.app/', '_blank');
+}
+
+function openEventEQ() {
+  window.open('https://youtu.be/NciUvoDfpQQ', '_blank');
+}
+
+function openOpenCV() {
+  window.open('https://youtu.be/HV7dPHIIWuA', '_blank');
 }
 
 export default {
@@ -167,7 +174,9 @@ export default {
     components: {
     },
     methods: {
-      openKiraPelaburan
+      openKiraPelaburan,
+      openEventEQ,
+      openOpenCV
     }
 }
 </script>
