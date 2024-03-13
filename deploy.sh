@@ -16,6 +16,9 @@ git init
 git add -A
 git commit -m 'deploy'
 
+git config --local user.name "Haziq Hapiz"
+git config --local user.email "zyqq.dev@gmail.com"
+
 # if you are deploying to https://<USERNAME>.github.io
 git push -f git@github.com:zyqhpz/zyqhpz.github.io.git master:gh-pages
 # git push -f git@github.com:zyqhpz/zyqhpz.github.io.git master:deployment
