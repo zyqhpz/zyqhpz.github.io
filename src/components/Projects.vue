@@ -7,6 +7,25 @@
             <!-- fix here if got 3 cards md:grid-cols-3 -->
             <div>
                <div class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+                  <img class="w-full h-23 bg-cover pointer-events-auto cursor-pointer" src="../assets/img/cards/mutabaah.png" alt="Mutabaah Amal project image" @click="openMutabaahAmal()">
+                  <div class="px-6 py-4">
+                     <div class="flex flex-col font-bold text-xl mb-2">
+                        <span>Mutabaah Amal</span>
+                     </div>
+                     <br>
+                     <p class="text-gray-700 text-base">
+                        A web app for Muslims to track their daily religious practices, helping them stay consistent and motivated. The app includes a dashboard and a progress tracker to monitor their spiritual growth.
+                     </p>
+                  </div>
+                  <div class="px-6 pt-auto pb-4">
+                     <span class="inline-block bg-nextjs rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2">NextJS</span>
+                     <span class="inline-block bg-firebase rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Firebase</span>
+                     <span class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Web Development</span>
+                  </div>
+               </div>
+            </div>
+            <div>
+               <div class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
                   <img class="w-full h-23 bg-cover pointer-events-auto cursor-pointer" src="../assets/img/cards/kirapelaburan.png" alt="Kira Pelaburan project image" @click="openKiraPelaburan()">
                   <div class="px-6 py-4">
                      <div class="flex flex-col font-bold text-xl mb-2">
@@ -157,16 +176,17 @@
 
 <script>
 
-function openKiraPelaburan() {
-  window.open('https://kira-pelaburan.vercel.app/', '_blank');
-}
-
-function openEventEQ() {
-  window.open('https://youtu.be/NciUvoDfpQQ', '_blank');
-}
-
 function openOpenCV() {
-  window.open('https://youtu.be/HV7dPHIIWuA', '_blank');
+   window.open('https://youtu.be/HV7dPHIIWuA', '_blank');
+}
+function openEventEQ() {
+   window.open('https://youtu.be/NciUvoDfpQQ', '_blank');
+}
+function openKiraPelaburan() {
+   window.open('https://kira-pelaburan.vercel.app/', '_blank');
+}
+function openMutabaahAmal() {
+  window.open('https://mutabaah-amal.vercel.app/', '_blank');
 }
 
 export default {
@@ -174,9 +194,10 @@ export default {
     components: {
     },
     methods: {
-      openKiraPelaburan,
+      openOpenCV,
       openEventEQ,
-      openOpenCV
+      openKiraPelaburan,
+      openMutabaahAmal
     }
 }
 </script>

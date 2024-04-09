@@ -32,6 +32,9 @@ module.exports = {
         nextjs: {
           DEFAULT: "#171717",
         },
+        firebase: {
+          DEFAULT: "#F5820D",
+        },
       },
     },
   },
