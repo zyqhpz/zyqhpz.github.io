@@ -7,7 +7,7 @@
             </a>
         </div>
         <div class="flex items-center justify-evenly">
-            <nuxt-link class="ml-3 title-font font-medium text-md text-white no-underline hover:underline mx-4" to="/project">Projects</nuxt-link>
+            <nuxt-link class="ml-3 title-font font-medium text-md text-white no-underline hover:underline mx-4" to="/projects">Projects</nuxt-link>
             <nuxt-link class="ml-3 title-font font-medium text-md text-white no-underline hover:underline mx-4" to="/resume.pdf" target="_blank">Resume</nuxt-link>
             <nuxt-link class="ml-3 title-font font-medium text-md text-white no-underline hover:underline mx-4" to="/about">About</nuxt-link>
         </div>

@@ -1,8 +1,11 @@
 <template>
-  <div class="bg-gray-700 min-h-screen">
+  <div class="min-h-screen" :style="{ backgroundImage: `url('~@/assets/img/bg.jpg')`, backgroundSize: 'cover', backgroundPosition: 'center' }" >
     <NavBar />
-    <slot class="bg-gray-300" />
-    <AppFooter />
+    <slot />
+    <!-- <AppFooter /> -->
+    <div class="mx-auto bg-gray-800 mt-4 p-2 w-full text-white text-center">
+      Dibangunkan oleh Haziq Hapiz
+    </div>
   </div>
 </template>
 <script setup lang="ts">
