@@ -1,11 +1,9 @@
 <template>
   <div class="min-h-screen flex flex-col">
     <NavBar />
-    <slot />
-    <!-- <AppFooter /> -->
-    
+    <slot />    
     <div class="mx-auto bg-gray-800 mt-4 p-2 w-full text-white text-center">
-      Dibangunkan oleh Haziq Hapiz
+      Developed with ❤️ by Haziq Hapiz &copy; {{ getLatestYear() }}
     </div>
   </div>
 </template>
@@ -37,4 +35,9 @@ useSeoMeta({
   ogTitle: 'Haziq Hapiz | Software Engineer',
   ogDescription: 'An aspiring software engineer with a passion to make meaningful impacts!',
 })
+
+const getLatestYear = () => {
+  const date = new Date()
+  return date.getFullYear()
+}
 </script>
