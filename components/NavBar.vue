@@ -10,7 +10,7 @@
             <nuxt-link class="font-medium text-md text-white no-underline hover:underline" v-for="tab in tabs" :key="tab.name" :to="tab.link">{{ tab.name }}</nuxt-link>
         </div>
         <div class="flex md:hidden z-50">
-            <div class="w-60">
+            <div class="w-36">
             <HeadlessListbox v-model="selectedTab">
                 <div class="relative mt-1">
                 <HeadlessListboxButton
@@ -83,30 +83,21 @@ const tabs = [
   { name: 'About', link: '/about' }
 ]
 
-interface Tab {
-  name: string
-  link: string
-}
-
-const selectedTab = ref<Tab | null>(null)
+const selectedTab = ref<{ name: string, link: string } | null>(null)
 const router = useRouter()
 
 // Set selectedTab based on the current route path
 onMounted(() => {
-  const path = router.currentRoute.value.path
-  const pathObj = tabs.find(tab => tab.link === path)
-  selectedTab.value = pathObj || tabs[0]
-  console.log(selectedTab.value)
+  const pathObj = tabs.find(tab => tab.link === router.currentRoute.value.path)
+  selectedTab.value = pathObj || null
 })
 
 // Function to handle tab selection
-const onSelectTab = (tab: any) => {
+const onSelectTab = (tab: { name: string, link: string }) => {
   if (tab.link.includes('http')) {
     window.open(tab.link, '_blank')
-    selectedTab.value = selectedTab.value
-    return
   } else {
-    selectedTab.value = tab.name
+    selectedTab.value = tab
     router.push(tab.link)
   }
 }
