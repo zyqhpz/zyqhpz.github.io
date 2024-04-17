@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "zyqhpz.github.io",
   "private": true,
   "type": "module",
   "scripts": {
@@ -19,7 +19,10 @@
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
+    "@nuxtjs/eslint-module": "^4.1.0",
+    "eslint": "^9.0.0",
+    "eslint-plugin-nuxt": "^4.0.0",
     "nuxt-headlessui": "^1.2.0",
-    "typescript": "^5.4.5"
+    "prettier": "^3.2.5"
   }
 }

@@ -114,7 +114,7 @@
                   <div class="px-6 pt-auto pb-4">
                      <span class="inline-block bg-orange-400 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">HTML5</span>
                      <span class="inline-block bg-blue-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">CSS3</span>
-                     <span class="inline-block bg-yellow-400 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Javascript</span>
+                     <span class="inline-block bg-yellow-400 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">JavaScript</span>
                      <span class="inline-block bg-purple-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">PHP</span>
                      <span class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Web Development</span>
                   </div>
@@ -164,7 +164,7 @@
                      </p>
                   </div>
                   <div class="px-6 pt-auto pb-4">
-                     <span class="inline-block bg-blue-900 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">C++</span>
+                     <span class="inline-block bg-cpp rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">C++</span>
                   </div>
                </div>
             </div>

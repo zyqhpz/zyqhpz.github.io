@@ -3,6 +3,7 @@
     <NavBar />
     <slot />
     <!-- <AppFooter /> -->
+    
     <div class="mx-auto bg-gray-800 mt-4 p-2 w-full text-white text-center">
       Dibangunkan oleh Haziq Hapiz
     </div>
