@@ -79,7 +79,7 @@ import { useRouter } from 'vue-router'
 const tabs = [
   { name: 'Home', link: '/' },
   { name: 'Projects', link: '/projects' },
-  { name: 'Resume', link: '/resume.pdf' },
+  { name: 'Resume', link: 'https://drive.google.com/drive/folders/12x2SWgZW4xEiDh_1jM58uyZpDVmPKHz-?usp=sharing' },
   { name: 'About', link: '/about' }
 ]
 
@@ -96,11 +96,18 @@ onMounted(() => {
   const path = router.currentRoute.value.path
   const pathObj = tabs.find(tab => tab.link === path)
   selectedTab.value = pathObj || tabs[0]
+  console.log(selectedTab.value)
 })
 
 // Function to handle tab selection
 const onSelectTab = (tab: any) => {
-  selectedTab.value = tab.name
-  router.push(tab.link)
+  if (tab.link.includes('http')) {
+    window.open(tab.link, '_blank')
+    selectedTab.value = selectedTab.value
+    return
+  } else {
+    selectedTab.value = tab.name
+    router.push(tab.link)
+  }
 }
 </script>
