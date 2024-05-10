@@ -1,10 +1,8 @@
 <template>
   <div class="min-h-screen flex flex-col">
     <NavBar />
-    <slot />    
-    <div class="mx-auto bg-gray-800 mt-4 p-2 w-full text-white text-center">
-      Developed with ❤️ by Haziq Hapiz &copy; {{ getLatestYear() }}
-    </div>
+    <slot />
+    <Footer />
   </div>
 </template>
 <style>
@@ -35,9 +33,4 @@ useSeoMeta({
   ogTitle: 'Haziq Hapiz | Software Engineer',
   ogDescription: 'An aspiring software engineer with a passion to make meaningful impacts!',
 })
-
-const getLatestYear = () => {
-  const date = new Date()
-  return date.getFullYear()
-}
 </script>
