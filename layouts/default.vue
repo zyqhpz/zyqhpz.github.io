@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen flex flex-col">
+  <div class="min-h-screen flex flex-col bg-gradient-to-r from-gray-800 to-gray-900">
     <NavBar />
     <slot />
     <Footer />
@@ -11,19 +11,13 @@
 * {
   font-family: 'Poppins', sans-serif;
 }
-body {
-  min-height: 100%;
-  background:linear-gradient(0deg, rgba(75, 75, 75, 0.2), rgba(0, 0, 0, 0.3)), url('~/assets/img/bg.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 </style>
 <script setup lang="ts">
 provideHeadlessUseId(() => useId())
 useHead({
   title: 'Haziq Hapiz | Software Engineer',
   meta: [
-    { name: 'description', content: 'An aspiring software engineer with a passion to make meaningful impacts!'},
+    { name: 'description', content: 'An aspiring software engineer with a passion to make meaningful impacts!' },
     { name: 'author', content: 'Haziq Hapiz' }
   ],
 })
