@@ -19,7 +19,7 @@
               class="text-sm no-underline text-gray-700 hover:text-blue-500 hover:underline hover:font-medium"
               href="https://www.utem.edu.my/en/"
               target="_blank"
-              >Universiti Teknikal Malaysia Melaka (UTeM)r</a
+              >Universiti Teknikal Malaysia Melaka (UTeM)</a
             >
           </div>
           <div class="mt-2 text-gray-700">
