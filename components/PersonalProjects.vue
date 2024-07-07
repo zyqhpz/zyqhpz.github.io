@@ -2,7 +2,7 @@
   <div class="mt-5">
     <div class="px-8 mx-auto text-center w-full">
       <div
-        class="flex flex-col justify-center items-center text-base font-semibold text-gray-600 dark:text-gray-300 gap-2"
+        class="flex flex-col justify-center items-center text-base font-semibold text-gray-600 dark:text-gray-300 gap-4"
       >
         <h2 class="text-center">Personal projects</h2>
         <IconDoubleDown class="animate-bounce h-4 w-4" />
@@ -12,7 +12,7 @@
           <!-- fix here if got 3 cards md:grid-cols-3 -->
           <div>
             <div
-              class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
+              class="max-w-xs h-full overflow-hidden bg-gray-200 rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
             >
               <img
                 class="w-full h-23 bg-cover pointer-events-auto cursor-pointer"
@@ -50,7 +50,7 @@
           </div>
           <div>
             <div
-              class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
+              class="max-w-xs h-full overflow-hidden bg-gray-200 rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
             >
               <img
                 class="w-full h-23 bg-cover pointer-events-auto cursor-pointer"
@@ -84,7 +84,7 @@
           </div>
           <div>
             <div
-              class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
+              class="max-w-xs h-full overflow-hidden bg-gray-200 rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
             >
               <img
                 class="w-full h-23 bg-cover pointer-events-auto cursor-pointer"
@@ -135,7 +135,7 @@
           </div>
           <div>
             <div
-              class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
+              class="max-w-xs h-full overflow-hidden bg-gray-200 rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
             >
               <img
                 class="w-full h-23 bg-cover"
@@ -173,7 +173,7 @@
           </div>
           <div>
             <div
-              class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
+              class="max-w-xs h-full overflow-hidden bg-gray-200 rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
             >
               <img
                 class="w-full h-23 bg-cover"
@@ -205,7 +205,7 @@
           </div>
           <div>
             <div
-              class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
+              class="max-w-xs h-full overflow-hidden bg-gray-200 rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
             >
               <img
                 class="w-full"
@@ -247,7 +247,7 @@
           </div>
           <div>
             <div
-              class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
+              class="max-w-xs h-full overflow-hidden bg-gray-200 rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
             >
               <img
                 class="w-full h-23 bg-cover pointer-events-auto cursor-pointer"
@@ -279,7 +279,7 @@
           </div>
           <div>
             <div
-              class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
+              class="max-w-xs h-full overflow-hidden bg-gray-200 rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
             >
               <img
                 class="w-full h-23 bg-cover"
@@ -313,7 +313,7 @@
           </div>
           <div>
             <div
-              class="max-w-xs h-full overflow-hidden bg-white rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
+              class="max-w-xs h-full overflow-hidden bg-gray-200 rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
             >
               <img
                 class="w-full h-23 bg-cover"
