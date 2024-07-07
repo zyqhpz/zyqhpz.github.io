@@ -3,9 +3,9 @@
 # Abort script on errors
 set -e
 
-npm run build
+bun run generate
 
-cd dist
+cd .output/public
 
 git init
 git add .

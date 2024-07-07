@@ -18,6 +18,7 @@ export default defineNuxtConfig({
   },
 
   app: {
+    baseURL: '',
     head: {
       title: "Haziq Hapiz",
       meta: [
@@ -38,7 +39,6 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      baseURL: process.env.BASE_URL,
       githubUsername: process.env.GITHUB_USERNAME,
       notionTableId: process.env.NOTION_TABLE_ID,
       notionAboutPageId: process.env.NOTION_ABOUT_PAGE_ID,

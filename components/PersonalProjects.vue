@@ -16,7 +16,7 @@
             >
               <img
                 class="w-full h-23 bg-cover pointer-events-auto cursor-pointer"
-                src="~/assets/img/cards/mutabaah.png"
+                src="/img/cards/mutabaah.png"
                 alt="Mutabaah Amal project image"
                 @click="openMutabaahAmal()"
               />
@@ -54,7 +54,7 @@
             >
               <img
                 class="w-full h-23 bg-cover pointer-events-auto cursor-pointer"
-                src="~/assets/img/cards/kirapelaburan.png"
+                src="/img/cards/kirapelaburan.png"
                 alt="Kira Pelaburan project image"
                 @click="openKiraPelaburan()"
               />
@@ -88,7 +88,7 @@
             >
               <img
                 class="w-full h-23 bg-cover pointer-events-auto cursor-pointer"
-                src="~/assets/img/cards/eventeq.png"
+                src="/img/cards/eventeq.png"
                 alt="EventEQ project image"
                 @click="openEventEQ()"
               />
@@ -139,7 +139,7 @@
             >
               <img
                 class="w-full h-23 bg-cover"
-                src="~/assets/img/cards/ekk.jpg"
+                src="/img/cards/ekk.jpg"
                 alt="E-Kertas Kerja project image"
               />
               <div class="px-6 py-4">
@@ -177,7 +177,7 @@
             >
               <img
                 class="w-full h-23 bg-cover"
-                src="~/assets/img/cards/wp-portfolio.png"
+                src="/img/cards/wp-portfolio.png"
                 alt="Payment gateway integration project image"
               />
               <div class="px-6 py-4">
@@ -209,7 +209,7 @@
             >
               <img
                 class="w-full"
-                src="~/assets/img/cards/edumaterial.png"
+                src="/img/cards/edumaterial.png"
                 alt="EduMaterial project image"
               />
               <div class="px-6 py-4">
@@ -251,7 +251,7 @@
             >
               <img
                 class="w-full h-23 bg-cover pointer-events-auto cursor-pointer"
-                src="~/assets/img/cards/yolo.png"
+                src="/img/cards/yolo.png"
                 alt="Vehicle Counter project image"
                 @click="openOpenCV()"
               />
@@ -283,7 +283,7 @@
             >
               <img
                 class="w-full h-23 bg-cover"
-                src="~/assets/img/cards/daftarjumaat.jpg"
+                src="/img/cards/daftarjumaat.jpg"
                 alt="Daftar Jumaat project image"
               />
               <div class="px-6 py-4">
@@ -317,7 +317,7 @@
             >
               <img
                 class="w-full h-23 bg-cover"
-                src="~/assets/img/cards/foodbear.png"
+                src="/img/cards/foodbear.png"
                 alt="FoodBear project image"
               />
               <div class="px-6 py-4">

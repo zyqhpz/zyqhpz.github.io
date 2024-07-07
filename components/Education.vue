@@ -1,6 +1,6 @@
 <template>
   <div
-    class="items-center justify-center mt-16 max-w-2xl mx-auto"
+    class="items-center justify-center mt-8 max-w-2xl mx-auto"
     id="aboutBox"
   >
     <div id="academic">
