@@ -1,8 +1,9 @@
 <template>
-  <div class="mt-16 md:mt-24">
-    <div class="flex justify-center items-center text-base font-semibold text-gray-600 dark:text-gray-300">
+  <div class="mt-5">
+    <div
+      class="flex justify-center items-center text-base font-semibold text-gray-600 dark:text-gray-300"
+    >
       <h2 class="text-center">My core skills</h2>
-      <IconDoubleDown class="h-4 w-4" />
     </div>
 
     <div class="flex flex-wrap justify-center items-center text-4xl mt-5">
