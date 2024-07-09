@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen flex flex-col bg-gradient-to-r from-gray-800 to-gray-900">
+  <div class="min-h-screen flex flex-col bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900">
     <NavBar />
     <slot />
     <Footer />
