@@ -12,11 +12,6 @@ export default defineNuxtConfig({
     prefix: "Headless",
   },
 
-  components: {
-    global: true,
-    dirs: ["~/components"],
-  },
-
   app: {
     baseURL: '',
     head: {
@@ -33,9 +28,9 @@ export default defineNuxtConfig({
   },
 
   // Google Analytics Configuration: https://google-analytics.nuxtjs.org
-  googleAnalytics: {
-    id: process.env.GOOGLE_ANALYTICS_ID,
-  },
+  // googleAnalytics: {
+  //   id: process.env.GOOGLE_ANALYTICS_ID,
+  // },
 
   runtimeConfig: {
     public: {
@@ -51,6 +46,4 @@ export default defineNuxtConfig({
       devLogo: process.env.DEV_LOGO,
     },
   },
-
-  compatibilityDate: "2024-07-06",
 });
