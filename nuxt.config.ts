@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   },
 
   app: {
-    baseURL: '',
+    baseURL: "",
     head: {
       title: "Haziq Hapiz",
       meta: [
@@ -24,6 +24,13 @@ export default defineNuxtConfig({
             "An aspiring software engineer with a passion to make meaningful impacts!",
         },
       ],
+    },
+  },
+
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      failOnError: false,
     },
   },
 
