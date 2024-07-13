@@ -31,7 +31,7 @@ useHead({
       content:
         "An aspiring software engineer with a passion to make meaningful impacts!",
     },
-    { name: "og:image", content: "/img/og.png" },
+    { name: "og:image", content: "https://zyqhpz.github.io/img/og.png" },
     { name: "og:url", content: "https://zyqhpz.github.io" },
     { name: "og:type", content: "website" },
     { name: "twitter:card", content: "summary_large_image" },
@@ -45,7 +45,7 @@ useHead({
       content:
         "An aspiring software engineer with a passion to make meaningful impacts!",
     },
-    { name: "twitter:image", content: "/img/og.png" },
+    { name: "twitter:image", content: "https://zyqhpz.github.io/img/og.png" },
   ],
 });
 useSeoMeta({
@@ -55,6 +55,6 @@ useSeoMeta({
   ogTitle: "Haziq Hapiz | Software Engineer",
   ogDescription:
     "An aspiring software engineer with a passion to make meaningful impacts!",
-  ogImage: "/img/og.png",
+  ogImage: "https://zyqhpz.github.io/img/og.png",
 });
 </script>
