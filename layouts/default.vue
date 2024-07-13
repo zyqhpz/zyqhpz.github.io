@@ -18,7 +18,18 @@ useHead({
   title: 'Haziq Hapiz | Software Engineer',
   meta: [
     { name: 'description', content: 'An aspiring software engineer with a passion to make meaningful impacts!' },
-    { name: 'author', content: 'Haziq Hapiz' }
+    { name: 'author', content: 'Haziq Hapiz' },
+    { name: 'og:title', content: 'Haziq Hapiz | Software Engineer' },
+    { name: 'og:description', content: 'An aspiring software engineer with a passion to make meaningful impacts!' },
+    { name: 'og:image', content: '/img/og.png' },
+    { name: 'og:url', content: 'https://zyqhpz.github.io' },
+    { name: 'og:type', content: 'website' },
+    { name: 'twitter:card', content: 'summary' },
+    { name: 'twitter:site', content: '@haziqhapiz' },
+    { name: 'twitter:creator', content: '@haziqhapiz' },
+    { name: 'twitter:title', content: 'Haziq Hapiz | Software Engineer' },
+    { name: 'twitter:description', content: 'An aspiring software engineer with a passion to make meaningful impacts!' },
+    { name: 'twitter:image', content: '/img/og.png' },
   ],
 })
 useSeoMeta({
@@ -26,5 +37,6 @@ useSeoMeta({
   description: 'An aspiring software engineer with a passion to make meaningful impacts!',
   ogTitle: 'Haziq Hapiz | Software Engineer',
   ogDescription: 'An aspiring software engineer with a passion to make meaningful impacts!',
+  ogImage: '/img/og.png',
 })
 </script>
