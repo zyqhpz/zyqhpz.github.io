@@ -2,8 +2,7 @@
   <div class="mt-5">
     <div class="px-8 mx-auto text-center w-full">
       <div
-        class="flex flex-col justify-center items-center text-base font-semibold text-gray-600 dark:text-gray-300 gap-4"
-      >
+        class="flex flex-col justify-center items-center text-base font-semibold text-gray-600 dark:text-gray-300 gap-4">
         <h2 class="text-center">Personal projects</h2>
         <IconDoubleDown class="animate-bounce h-4 w-4" />
       </div>
@@ -12,14 +11,33 @@
           <!-- fix here if got 3 cards md:grid-cols-3 -->
           <div>
             <div
-              class="max-w-xs h-full overflow-hidden bg-gray-200 rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
-            >
-              <img
-                class="w-full h-23 bg-cover pointer-events-auto cursor-pointer"
-                src="/img/cards/mutabaah.png"
-                alt="Mutabaah Amal project image"
-                @click="openMutabaahAmal()"
-              />
+              class="max-w-xs h-full overflow-hidden bg-gray-200 rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+              <img class="w-full h-23 bg-cover pointer-events-auto cursor-pointer" src="/img/cards/tictactoe.png"
+                alt="Mutabaah Amal project image" @click="openTicTacToe()" />
+              <div class="px-6 py-4">
+                <div class="flex flex-col font-bold text-xl mb-2">
+                  <span>Tic Tac Toe</span>
+                </div>
+                <br />
+                <p class="text-gray-700 text-base">
+                  A multiplayer Tic Tac Toe game using WebSocket. The game allows two players to play against each other
+                  in real-time.
+                </p>
+              </div>
+              <div class="px-6 pt-auto pb-4">
+                <span
+                  class="inline-block bg-go rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Go</span>
+                <span
+                  class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Web
+                  Development</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="max-w-xs h-full overflow-hidden bg-gray-200 rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+              <img class="w-full h-23 bg-cover pointer-events-auto cursor-pointer" src="/img/cards/mutabaah.png"
+                alt="Mutabaah Amal project image" @click="openMutabaahAmal()" />
               <div class="px-6 py-4">
                 <div class="flex flex-col font-bold text-xl mb-2">
                   <span>Mutabaah Amal</span>
@@ -34,30 +52,20 @@
               </div>
               <div class="px-6 pt-auto pb-4">
                 <span
-                  class="inline-block bg-nextjs rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2"
-                  >NextJS</span
-                >
+                  class="inline-block bg-nextjs rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2">NextJS</span>
                 <span
-                  class="inline-block bg-firebase rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2"
-                  >Firebase</span
-                >
+                  class="inline-block bg-firebase rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Firebase</span>
                 <span
-                  class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2"
-                  >Web Development</span
-                >
+                  class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Web
+                  Development</span>
               </div>
             </div>
           </div>
           <div>
             <div
-              class="max-w-xs h-full overflow-hidden bg-gray-200 rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
-            >
-              <img
-                class="w-full h-23 bg-cover pointer-events-auto cursor-pointer"
-                src="/img/cards/kirapelaburan.png"
-                alt="Kira Pelaburan project image"
-                @click="openKiraPelaburan()"
-              />
+              class="max-w-xs h-full overflow-hidden bg-gray-200 rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+              <img class="w-full h-23 bg-cover pointer-events-auto cursor-pointer" src="/img/cards/kirapelaburan.png"
+                alt="Kira Pelaburan project image" @click="openKiraPelaburan()" />
               <div class="px-6 py-4">
                 <div class="flex flex-col font-bold text-xl mb-2">
                   <span>Kira Pelaburan</span>
@@ -72,26 +80,18 @@
               </div>
               <div class="px-6 pt-auto pb-4">
                 <span
-                  class="inline-block bg-nextjs rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2"
-                  >NextJS</span
-                >
+                  class="inline-block bg-nextjs rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2">NextJS</span>
                 <span
-                  class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2"
-                  >Web Development</span
-                >
+                  class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Web
+                  Development</span>
               </div>
             </div>
           </div>
           <div>
             <div
-              class="max-w-xs h-full overflow-hidden bg-gray-200 rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
-            >
-              <img
-                class="w-full h-23 bg-cover pointer-events-auto cursor-pointer"
-                src="/img/cards/eventeq.png"
-                alt="EventEQ project image"
-                @click="openEventEQ()"
-              />
+              class="max-w-xs h-full overflow-hidden bg-gray-200 rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+              <img class="w-full h-23 bg-cover pointer-events-auto cursor-pointer" src="/img/cards/eventeq.png"
+                alt="EventEQ project image" @click="openEventEQ()" />
               <div class="px-6 py-4">
                 <div class="flex flex-col font-bold text-xl mb-2">
                   <span>EventEQ</span>
@@ -107,41 +107,25 @@
               </div>
               <div class="px-6 pt-auto pb-4">
                 <span
-                  class="inline-block bg-react rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2"
-                  >React</span
-                >
+                  class="inline-block bg-react rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2">React</span>
                 <span
-                  class="inline-block bg-go rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2"
-                  >Go</span
-                >
+                  class="inline-block bg-go rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Go</span>
                 <span
-                  class="inline-block bg-mongodb rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2"
-                  >MongoDB</span
-                >
+                  class="inline-block bg-mongodb rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">MongoDB</span>
                 <span
-                  class="inline-block bg-docker rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2"
-                  >Docker</span
-                >
+                  class="inline-block bg-docker rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Docker</span>
                 <span
-                  class="inline-block bg-aws rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2"
-                  >AWS</span
-                >
+                  class="inline-block bg-aws rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">AWS</span>
                 <span
-                  class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2"
-                  >Web Development</span
-                >
+                  class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Web
+                  Development</span>
               </div>
             </div>
           </div>
           <div>
             <div
-              class="max-w-xs h-full overflow-hidden bg-gray-200 rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
-            >
-              <img
-                class="w-full h-23 bg-cover"
-                src="/img/cards/ekk.jpg"
-                alt="E-Kertas Kerja project image"
-              />
+              class="max-w-xs h-full overflow-hidden bg-gray-200 rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+              <img class="w-full h-23 bg-cover" src="/img/cards/ekk.jpg" alt="E-Kertas Kerja project image" />
               <div class="px-6 py-4">
                 <div class="flex flex-col font-bold text-xl mb-2">
                   <span>e-Kertas Kerja</span>
@@ -157,29 +141,20 @@
               </div>
               <div class="px-6 pt-auto pb-4">
                 <span
-                  class="inline-block bg-laravel rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2"
-                  >Laravel</span
-                >
+                  class="inline-block bg-laravel rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2">Laravel</span>
                 <span
-                  class="inline-block bg-purple-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2"
-                  >PHP</span
-                >
+                  class="inline-block bg-purple-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">PHP</span>
                 <span
-                  class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2"
-                  >Web Development</span
-                >
+                  class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Web
+                  Development</span>
               </div>
             </div>
           </div>
           <div>
             <div
-              class="max-w-xs h-full overflow-hidden bg-gray-200 rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
-            >
-              <img
-                class="w-full h-23 bg-cover"
-                src="/img/cards/wp-portfolio.png"
-                alt="Payment gateway integration project image"
-              />
+              class="max-w-xs h-full overflow-hidden bg-gray-200 rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+              <img class="w-full h-23 bg-cover" src="/img/cards/wp-portfolio.png"
+                alt="Payment gateway integration project image" />
               <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2">
                   Payment Gateway Integration
@@ -193,25 +168,17 @@
               </div>
               <div class="px-6 pt-auto pb-4">
                 <span
-                  class="inline-block bg-purple-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2"
-                  >PHP</span
-                >
+                  class="inline-block bg-purple-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">PHP</span>
                 <span
-                  class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2"
-                  >Web Development</span
-                >
+                  class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Web
+                  Development</span>
               </div>
             </div>
           </div>
           <div>
             <div
-              class="max-w-xs h-full overflow-hidden bg-gray-200 rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
-            >
-              <img
-                class="w-full"
-                src="/img/cards/edumaterial.png"
-                alt="EduMaterial project image"
-              />
+              class="max-w-xs h-full overflow-hidden bg-gray-200 rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+              <img class="w-full" src="/img/cards/edumaterial.png" alt="EduMaterial project image" />
               <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2">EduMaterial</div>
                 <br />
@@ -223,38 +190,24 @@
               </div>
               <div class="px-6 pt-auto pb-4">
                 <span
-                  class="inline-block bg-orange-400 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2"
-                  >HTML5</span
-                >
+                  class="inline-block bg-orange-400 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">HTML5</span>
                 <span
-                  class="inline-block bg-blue-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2"
-                  >CSS3</span
-                >
+                  class="inline-block bg-blue-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">CSS3</span>
                 <span
-                  class="inline-block bg-yellow-400 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2"
-                  >JavaScript</span
-                >
+                  class="inline-block bg-yellow-400 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">JavaScript</span>
                 <span
-                  class="inline-block bg-purple-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2"
-                  >PHP</span
-                >
+                  class="inline-block bg-purple-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">PHP</span>
                 <span
-                  class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2"
-                  >Web Development</span
-                >
+                  class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Web
+                  Development</span>
               </div>
             </div>
           </div>
           <div>
             <div
-              class="max-w-xs h-full overflow-hidden bg-gray-200 rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
-            >
-              <img
-                class="w-full h-23 bg-cover pointer-events-auto cursor-pointer"
-                src="/img/cards/yolo.png"
-                alt="Vehicle Counter project image"
-                @click="openOpenCV()"
-              />
+              class="max-w-xs h-full overflow-hidden bg-gray-200 rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+              <img class="w-full h-23 bg-cover pointer-events-auto cursor-pointer" src="/img/cards/yolo.png"
+                alt="Vehicle Counter project image" @click="openOpenCV()" />
               <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2">Vehicle Counter</div>
                 <br />
@@ -267,25 +220,17 @@
               </div>
               <div class="px-6 pt-auto pb-4">
                 <span
-                  class="inline-block bg-indigo-900 rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2"
-                  >Computer Vision</span
-                >
+                  class="inline-block bg-indigo-900 rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2">Computer
+                  Vision</span>
                 <span
-                  class="inline-block rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2 bg-red-600"
-                  >Python</span
-                >
+                  class="inline-block rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2 bg-red-600">Python</span>
               </div>
             </div>
           </div>
           <div>
             <div
-              class="max-w-xs h-full overflow-hidden bg-gray-200 rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
-            >
-              <img
-                class="w-full h-23 bg-cover"
-                src="/img/cards/daftarjumaat.jpg"
-                alt="Daftar Jumaat project image"
-              />
+              class="max-w-xs h-full overflow-hidden bg-gray-200 rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+              <img class="w-full h-23 bg-cover" src="/img/cards/daftarjumaat.jpg" alt="Daftar Jumaat project image" />
               <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2">Daftar Jumaat</div>
                 <br />
@@ -297,29 +242,19 @@
               </div>
               <div class="px-6 pt-auto pb-4">
                 <span
-                  class="inline-block bg-laravel rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2"
-                  >Laravel</span
-                >
+                  class="inline-block bg-laravel rounded-full px-3 py-1 text-sm font-bold text-white mr-2 mb-2">Laravel</span>
                 <span
-                  class="inline-block bg-purple-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2"
-                  >PHP</span
-                >
+                  class="inline-block bg-purple-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">PHP</span>
                 <span
-                  class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2"
-                  >Web Development</span
-                >
+                  class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Web
+                  Development</span>
               </div>
             </div>
           </div>
           <div>
             <div
-              class="max-w-xs h-full overflow-hidden bg-gray-200 rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105"
-            >
-              <img
-                class="w-full h-23 bg-cover"
-                src="/img/cards/foodbear.png"
-                alt="FoodBear project image"
-              />
+              class="max-w-xs h-full overflow-hidden bg-gray-200 rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
+              <img class="w-full h-23 bg-cover" src="/img/cards/foodbear.png" alt="FoodBear project image" />
               <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2">
                   FoodBear Delivery System
@@ -334,9 +269,7 @@
               </div>
               <div class="px-6 pt-auto pb-4">
                 <span
-                  class="inline-block bg-cpp rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2"
-                  >C++</span
-                >
+                  class="inline-block bg-cpp rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">C++</span>
               </div>
             </div>
           </div>
@@ -358,6 +291,10 @@ function openKiraPelaburan() {
 }
 function openMutabaahAmal() {
   window.open("https://mutabaah-amal.vercel.app/", "_blank");
+}
+
+function openTicTacToe() {
+  window.open("https://tct.haziqhapiz.my/", "_blank");
 }
 
 export default {
