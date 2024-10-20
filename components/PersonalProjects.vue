@@ -13,7 +13,7 @@
             <div
               class="max-w-xs h-full overflow-hidden bg-gray-200 rounded-2xl shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-105">
               <img class="w-full h-23 bg-cover pointer-events-auto cursor-pointer" src="/img/cards/tictactoe.png"
-                alt="Mutabaah Amal project image" @click="openTicTacToe()" />
+                alt="Tic Tac Toe project image" @click="openTicTacToe()" />
               <div class="px-6 py-4">
                 <div class="flex flex-col font-bold text-xl mb-2">
                   <span>Tic Tac Toe</span>
@@ -27,6 +27,8 @@
               <div class="px-6 pt-auto pb-4">
                 <span
                   class="inline-block bg-go rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Go</span>
+                <span
+                  class="inline-block bg-yellow-400 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">JavaScript</span>
                 <span
                   class="inline-block bg-green-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Web
                   Development</span>
@@ -292,7 +294,6 @@ function openKiraPelaburan() {
 function openMutabaahAmal() {
   window.open("https://mutabaah-amal.vercel.app/", "_blank");
 }
-
 function openTicTacToe() {
   window.open("https://tct.haziqhapiz.my/", "_blank");
 }
@@ -305,6 +306,7 @@ export default {
     openEventEQ,
     openKiraPelaburan,
     openMutabaahAmal,
+    openTicTacToe,
   },
 };
 </script>
