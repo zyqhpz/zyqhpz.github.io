@@ -1,26 +1,48 @@
 <template>
-  <div class="mt-12 md:mt-16">
-    <div
-      class="flex justify-center items-center text-base font-semibold text-gray-600 dark:text-gray-300"
-    >
-      <h2 class="text-center">Connect with me</h2>
-    </div>
-
-    <div class="flex flex-wrap justify-center items-center text-4xl mt-5">
-      <a
-        href="https://www.linkedin.com/in/haziqhapiz/"
-        target="_blank"
-        class="m-2 md:m-4"
-      >
-        <IconLinkedin class="hover:scale-125" />
-      </a>
-      <a
-        href="https://www.github.com/zyqhpz"
-        target="_blank"
-        class="m-2 md:m-4"
-      >
-        <IconGithub class="hover:scale-125" />
-      </a>
-    </div>
+  <div class="socials" aria-label="Social links">
+    <a
+      href="https://www.linkedin.com/in/haziqhapiz/"
+      target="_blank"
+      rel="noreferrer"
+      aria-label="Haziq Hapiz on LinkedIn"
+      ><IconLinkedin
+    /></a>
+    <a
+      href="https://www.github.com/zyqhpz"
+      target="_blank"
+      rel="noreferrer"
+      aria-label="Haziq Hapiz on GitHub"
+      ><IconGithub
+    /></a>
   </div>
 </template>
+
+<style scoped>
+.socials {
+  display: flex;
+  gap: 0.6rem;
+}
+.socials a {
+  display: grid;
+  width: 3.15rem;
+  height: 3.15rem;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 0.9rem;
+  background: rgba(15, 23, 42, 0.48);
+  color: #dbe4ef;
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    background 180ms ease;
+}
+.socials a :deep(svg) {
+  width: 1.35rem;
+  height: 1.35rem;
+}
+.socials a:hover {
+  transform: translateY(-2px);
+  border-color: rgba(181, 192, 255, 0.35);
+  background: rgba(139, 156, 255, 0.12);
+}
+</style>

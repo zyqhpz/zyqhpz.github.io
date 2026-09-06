@@ -1,13 +1,19 @@
 [
   {
-    "company": "Leanis Solution",
-    "position": "Software Developer",
+    "company": "Leanis Solutions",
+    "position": "Software Engineer",
     "duration": "July 2025 - Present",
     "link": "https://leanis.com.my/"
   },
   {
+    "company": "-",
+    "position": "Freelance (Programmer)",
+    "duration": "December 2021 - Present",
+    "link": ""
+  },
+  {
     "company": "Decube Data",
-    "position": "Software Engineer",
+    "position": "Junior Software Engineer",
     "duration": "May 2024 - July 2025",
     "link": "https://www.decube.io/"
   },
@@ -28,11 +34,5 @@
     "position": "Internship",
     "duration": "August 2022 - October 2022",
     "link": "https://datasc.com.my/"
-  },
-  {
-    "company": "-",
-    "position": "Freelance (PHP Programmer)",
-    "duration": "December 2021 - February 2022",
-    "link": ""
   }
 ]

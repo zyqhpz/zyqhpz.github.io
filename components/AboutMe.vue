@@ -6,9 +6,9 @@
 
 <script setup>
 // @ts-expect-error avoid lint error
-import markdownParser from '@nuxt/content/transformers/markdown'
+import markdownParser from "@nuxt/content/transformers/markdown";
 
-const content = await fetch('/profile.md').then(res => res.text())
+const content = await fetch("/profile.md").then((res) => res.text());
 
-let parsedMarkdown = await markdownParser.parse(null, content)
+let parsedMarkdown = await markdownParser.parse(null, content);
 </script>
